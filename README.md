@@ -15,7 +15,7 @@ Spock intergrates a [Starmade](http://star-made.org/) server with IRC (Internet 
 - A Linux based operating system
 - The ability to start php scripts from shell
 - FTP/SFTP access to the server
-- A copy of the [Nuwani IRC Platform](https://code.google.com/p/nuwani/). Version 2.3-rc1 is recommended.
+- A copy of the [Nuwani IRC Platform](https://code.google.com/p/nuwani/). thrunk is recommended.
 - A Starmade server being run inside a [screen](http://www.rackaid.com/resources/linux-screen-tutorial-and-how-to/)
 
 #### Bringing Spock alive, Step by step
@@ -26,8 +26,8 @@ Spock intergrates a [Starmade](http://star-made.org/) server with IRC (Internet 
 ```
 $ screen -S starmade
 ```
-4. Download a copy of [Nuwani](https://code.google.com/p/nuwani/downloads/list). 2.3-rc1 is recommended.
-5. Upload all file from the scr directory to the directory you've created for the bot.
+4. Download a copy of Nuwani. thrunk is recommended. Use could use an online tool like [svndownload](http://svndownload.eu5.org/) without having to install [tortoisesvn](http://tortoisesvn.net/). Simply go to the webpage, enter `http://nuwani.googlecode.com/svn/trunk/src` and hit download.
+5. Upload the contens of the zip to the directory you've created for the bot.
 6. Edit example_config.php to your needs and rename it to config.php
   - Modify the 'Networks' array to where you want to deploy the bot
   - Modify the 'Bots' array to your liking
