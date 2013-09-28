@@ -29,11 +29,11 @@ class Configuration {
   /////
   
   // The following path is your starmade server directory
-  const StarmadeServerDirectory = '/home/starmade';
+  const StarmadeServerDirectory = '/home/starmade/Server';
 
   // Where would you like the punishment log to be saved. Make sure the directory exists.
   // This file contains all current and previous bans, kicks and notes
-  const PunishmentsFile = '/home/starmade/banlog.json';
+  const PunishmentsFile = '/home/starmade/Server/banlog.json';
   
   //////
   // Channel Configuration

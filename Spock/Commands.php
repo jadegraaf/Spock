@@ -150,20 +150,20 @@ class Commands {
 
   // Handles !startserver
   private static function onStartServerCommand(Bot $bot, $channel) {
-    $state = ServerController::startStarmadeServer();
-
-    if ($state)
+    if (!ServerController::getStarmadeServerState()) {
       CommandHelper::infoMessage($bot, $channel, 'Server Initializing');
+      ServerController::startStarmadeServer();
+    }
     else
       CommandHelper::errorMessage($bot, $channel, 'The server is already running');
   }
 
   // Handles !startserver
   private static function onStopServerCommand(Bot $bot, $channel) {
-
     if (ServerController::getStarmadeServerState()) {
       ServerController::broadcastToServer('The server will shut down in 10 seconds');
       CommandHelper::infoMessage($bot, $channel, 'Server shutting down in 10 seconds');
+      ServerController::stopStarmadeServer();
     }
     else
       CommandHelper::errorMessage($bot, $channel, 'The server is not running');

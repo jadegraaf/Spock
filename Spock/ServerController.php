@@ -33,14 +33,7 @@ class ServerController {
    * @return boolean          If the start was successfull
    */
   public static function startStarmadeServer() {
-    $pid = shell_exec('ps -fu starmade |grep -v grep | grep java | awk \'{print $2}\'');
-
-    if ($pid == NULL) {
-      shell_exec('screen -S starmade -p 0 -X stuff "`printf "java -Xms128m -Xmx1024m -jar StarMade.jar -server\r"`";');
-      return true;
-    }
-    else
-      return false;
+    shell_exec('screen -S starmade -p 0 -X stuff "`printf "java -Xms128m -Xmx1024m -jar StarMade.jar -server\r"`";');
   }
 
   /**
@@ -49,14 +42,7 @@ class ServerController {
    * @return boolean            If the action was successfull
    */
   public static function stopStarmadeServer() {
-    $pid = shell_exec('ps -fu starmade |grep -v grep | grep java | awk \'{print $2}\'');
-
-    if ($pid != NULL) {
-      shell_exec('screen -S starmade -p 0 -X stuff "`printf "/shutdown 10\r"`";');
-      return true;
-    }
-    else
-      return false;
+    shell_exec('screen -S starmade -p 0 -X stuff "`printf "/shutdown 10\r"`";');
   }
 
   /**
@@ -96,7 +82,7 @@ class ServerController {
     if (shell_exec('ps -fu starmade |grep -v grep | grep java | awk \'{print $2}\''))
       return true;
     else
-      ffalse;
+      false;
 
   }
 };
