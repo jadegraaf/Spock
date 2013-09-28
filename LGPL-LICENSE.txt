@@ -1,0 +1,4408 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <link rel="icon" type="image/vnd.microsoft.icon" href="https://ssl.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ 
+ <script type="text/javascript">
+ 
+ 
+ 
+ 
+ var codesite_token = "8r6MrRveli5lRP6s1wEN_hLMXjc:1380381494100";
+ 
+ 
+ var CS_env = {"domainName":null,"relativeBaseUrl":"","profileUrl":"/u/115644446545557313599/","assetVersionPath":"https://ssl.gstatic.com/codesite/ph/15490321151412058579","token":"8r6MrRveli5lRP6s1wEN_hLMXjc:1380381494100","projectHomeUrl":"/p/nuwani","assetHostPath":"https://ssl.gstatic.com/codesite/ph","projectName":"nuwani","loggedInUserEmail":"Oostcoast@gmail.com"};
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ _gaq.push(
+ ['projectTracker._setAccount', 'UA-10035378-2'],
+ ['projectTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ 
+ </script>
+ 
+ 
+ <title>LGPL-LICENSE.txt - 
+ nuwani -
+ 
+ 
+ A fully modular and object-oriented PHP IRC Platform - Google Project Hosting
+ </title>
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/15490321151412058579/css/core.css">
+ 
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/15490321151412058579/css/ph_detail.css" >
+ 
+ 
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/15490321151412058579/css/d_sb.css" >
+ 
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/15490321151412058579/css/d_ie.css" >
+<![endif]-->
+ <style type="text/css">
+ .menuIcon.off { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ 
+ 
+ 
+  tr.inline_comment {
+ background: #fff;
+ vertical-align: top;
+ }
+ div.draft, div.published {
+ padding: .3em;
+ border: 1px solid #999; 
+ margin-bottom: .1em;
+ font-family: arial, sans-serif;
+ max-width: 60em;
+ }
+ div.draft {
+ background: #ffa;
+ } 
+ div.published {
+ background: #e5ecf9;
+ }
+ div.published .body, div.draft .body {
+ padding: .5em .1em .1em .1em;
+ max-width: 60em;
+ white-space: pre-wrap;
+ white-space: -moz-pre-wrap;
+ white-space: -pre-wrap;
+ white-space: -o-pre-wrap;
+ word-wrap: break-word;
+ font-size: 1em;
+ }
+ div.draft .actions {
+ margin-left: 1em;
+ font-size: 90%;
+ }
+ div.draft form {
+ padding: .5em .5em .5em 0;
+ }
+ div.draft textarea, div.published textarea {
+ width: 95%;
+ height: 10em;
+ font-family: arial, sans-serif;
+ margin-bottom: .5em;
+ }
+
+ 
+ .nocursor, .nocursor td, .cursor_hidden, .cursor_hidden td {
+ background-color: white;
+ height: 2px;
+ }
+ .cursor, .cursor td {
+ background-color: darkblue;
+ height: 2px;
+ display: '';
+ }
+ 
+ 
+.list {
+ border: 1px solid white;
+ border-bottom: 0;
+}
+
+ 
+ </style>
+</head>
+<body class="t4">
+<script type="text/javascript">
+ window.___gcfg = {lang: 'en'};
+ (function() 
+ {var po = document.createElement("script");
+ po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+ var s = document.getElementsByTagName("script")[0];
+ s.parentNode.insertBefore(po, s);
+ })();
+</script>
+<div class="headbg">
+
+ <div id="gaia">
+ 
+
+ <span>
+ 
+ 
+ 
+ <a href="#" id="multilogin-dropdown" onclick="return false;"
+ ><u><b>Oostcoast@gmail.com</b></u> <small>&#9660;</small></a>
+ 
+ 
+ | <a href="/u/115644446545557313599/" id="projects-dropdown" onclick="return false;"
+ ><u>My favorites</u> <small>&#9660;</small></a>
+ | <a href="/u/115644446545557313599/" onclick="_CS_click('/gb/ph/profile');"
+ title="Profile, Updates, and Settings"
+ ><u>Profile</u></a>
+ | <a href="https://www.google.com/accounts/Logout?continue=https%3A%2F%2Fcode.google.com%2Fp%2Fnuwani%2Fsource%2Fbrowse%2Ftrunk%2FLGPL-LICENSE.txt" 
+ onclick="_CS_click('/gb/ph/signout');"
+ ><u>Sign out</u></a>
+ 
+ </span>
+
+ </div>
+
+ <div class="gbh" style="left: 0pt;"></div>
+ <div class="gbh" style="right: 0pt;"></div>
+ 
+ 
+ <div style="height: 1px"></div>
+<!--[if lte IE 7]>
+<div style="text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>,
+<a href="http://www.google.com/chrome">Google Chrome</a>, or
+<a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
+</div>
+<![endif]-->
+
+
+
+ <table style="padding:0px; margin: 0px 0px 10px 0px; width:100%" cellpadding="0" cellspacing="0"
+ itemscope itemtype="http://schema.org/CreativeWork">
+ <tr style="height: 58px;">
+ 
+ 
+ 
+ <td id="plogo">
+ <link itemprop="url" href="/p/nuwani">
+ <a href="/p/nuwani/">
+ 
+ <img src="https://ssl.gstatic.com/codesite/ph/images/defaultlogo.png" alt="Logo" itemprop="image">
+ 
+ </a>
+ </td>
+ 
+ <td style="padding-left: 0.5em">
+ 
+ <div id="pname">
+ <a href="/p/nuwani/"><span itemprop="name">nuwani</span></a>
+ </div>
+ 
+ <div id="psum">
+ <a id="project_summary_link"
+ href="/p/nuwani/"><span itemprop="description">A fully modular and object-oriented PHP IRC Platform</span></a>
+ 
+ </div>
+ 
+ 
+ </td>
+ <td style="white-space:nowrap;text-align:right; vertical-align:bottom;">
+ 
+ <form action="/hosting/search">
+ <input size="30" name="q" value="" type="text">
+ 
+ <input type="submit" name="projectsearch" value="Search projects" >
+ </form>
+ 
+ </tr>
+ </table>
+
+</div>
+
+ 
+<div id="mt" class="gtb"> 
+ <a href="/p/nuwani/" class="tab ">Project&nbsp;Home</a>
+ 
+ 
+ 
+ 
+ <a href="/p/nuwani/downloads/list" class="tab ">Downloads</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/nuwani/w/list" class="tab ">Wiki</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/nuwani/issues/list"
+ class="tab ">Issues</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/nuwani/source/checkout"
+ class="tab active">Source</a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class=gtbc></div>
+</div>
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="subt">
+ <div class="st2">
+ <div class="isf">
+ 
+ 
+
+
+ <span class="inst1"><a href="/p/nuwani/source/checkout">Checkout</a></span> &nbsp;
+ <span class="inst2"><a href="/p/nuwani/source/browse/">Browse</a></span> &nbsp;
+ <span class="inst3"><a href="/p/nuwani/source/list">Changes</a></span> &nbsp;
+ 
+ 
+ 
+ 
+ 
+ 
+ </form>
+ <script type="text/javascript">
+ 
+ function codesearchQuery(form) {
+ var query = document.getElementById('q').value;
+ if (query) { form.action += '%20' + query; }
+ }
+ </script>
+ </div>
+</div>
+
+ </td>
+ 
+ 
+ 
+ <td align="right" valign="top" class="bevel-right"></td>
+ </tr>
+</table>
+
+
+<script type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</script>
+<div id="maincol"
+ 
+>
+
+ 
+
+
+
+
+<div class="expand">
+<div id="colcontrol">
+<style type="text/css">
+ #file_flipper { white-space: nowrap; padding-right: 2em; }
+ #file_flipper.hidden { display: none; }
+ #file_flipper .pagelink { color: #0000CC; text-decoration: underline; }
+ #file_flipper #visiblefiles { padding-left: 0.5em; padding-right: 0.5em; }
+</style>
+<table id="nav_and_rev" class="list"
+ cellpadding="0" cellspacing="0" width="100%">
+ <tr>
+ 
+ <td nowrap="nowrap" class="src_crumbs src_nav" width="33%">
+ <strong class="src_nav">Source path:&nbsp;</strong>
+ <span id="crumb_root">
+ 
+ <a href="/p/nuwani/source/browse/">svn</a>/&nbsp;</span>
+ <span id="crumb_links" class="ifClosed"><a href="/p/nuwani/source/browse/trunk/">trunk</a><span class="sp">/&nbsp;</span>LGPL-LICENSE.txt</span>
+ 
+ 
+
+
+ </td>
+ 
+ 
+ <td nowrap="nowrap" width="33%" align="center">
+ <a href="/p/nuwani/source/browse/trunk/LGPL-LICENSE.txt?edit=1"
+ ><img src="https://ssl.gstatic.com/codesite/ph/images/pencil-y14.png"
+ class="edit_icon">Edit file</a>
+ </td>
+ 
+ 
+ <td nowrap="nowrap" width="33%" align="right">
+ <table cellpadding="0" cellspacing="0" style="font-size: 100%"><tr>
+ 
+ 
+ <td class="flipper"><b>r163</b></td>
+ 
+ </tr></table>
+ </td> 
+ </tr>
+</table>
+
+<div class="fc">
+ 
+ 
+ 
+<style type="text/css">
+.undermouse span {
+ background-image: url(https://ssl.gstatic.com/codesite/ph/images/comments.gif); }
+</style>
+<table class="opened" id="review_comment_area"
+onmouseout="gutterOut()"><tr>
+<td id="nums">
+<pre><table width="100%"><tr class="nocursor"><td></td></tr></table></pre>
+<pre><table width="100%" id="nums_table_0"><tr id="gr_svn163_1"
+
+ onmouseover="gutterOver(1)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',1);">&nbsp;</span
+></td><td id="1"><a href="#1">1</a></td></tr
+><tr id="gr_svn163_2"
+
+ onmouseover="gutterOver(2)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',2);">&nbsp;</span
+></td><td id="2"><a href="#2">2</a></td></tr
+><tr id="gr_svn163_3"
+
+ onmouseover="gutterOver(3)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',3);">&nbsp;</span
+></td><td id="3"><a href="#3">3</a></td></tr
+><tr id="gr_svn163_4"
+
+ onmouseover="gutterOver(4)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',4);">&nbsp;</span
+></td><td id="4"><a href="#4">4</a></td></tr
+><tr id="gr_svn163_5"
+
+ onmouseover="gutterOver(5)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',5);">&nbsp;</span
+></td><td id="5"><a href="#5">5</a></td></tr
+><tr id="gr_svn163_6"
+
+ onmouseover="gutterOver(6)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',6);">&nbsp;</span
+></td><td id="6"><a href="#6">6</a></td></tr
+><tr id="gr_svn163_7"
+
+ onmouseover="gutterOver(7)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',7);">&nbsp;</span
+></td><td id="7"><a href="#7">7</a></td></tr
+><tr id="gr_svn163_8"
+
+ onmouseover="gutterOver(8)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',8);">&nbsp;</span
+></td><td id="8"><a href="#8">8</a></td></tr
+><tr id="gr_svn163_9"
+
+ onmouseover="gutterOver(9)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',9);">&nbsp;</span
+></td><td id="9"><a href="#9">9</a></td></tr
+><tr id="gr_svn163_10"
+
+ onmouseover="gutterOver(10)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',10);">&nbsp;</span
+></td><td id="10"><a href="#10">10</a></td></tr
+><tr id="gr_svn163_11"
+
+ onmouseover="gutterOver(11)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',11);">&nbsp;</span
+></td><td id="11"><a href="#11">11</a></td></tr
+><tr id="gr_svn163_12"
+
+ onmouseover="gutterOver(12)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',12);">&nbsp;</span
+></td><td id="12"><a href="#12">12</a></td></tr
+><tr id="gr_svn163_13"
+
+ onmouseover="gutterOver(13)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',13);">&nbsp;</span
+></td><td id="13"><a href="#13">13</a></td></tr
+><tr id="gr_svn163_14"
+
+ onmouseover="gutterOver(14)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',14);">&nbsp;</span
+></td><td id="14"><a href="#14">14</a></td></tr
+><tr id="gr_svn163_15"
+
+ onmouseover="gutterOver(15)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',15);">&nbsp;</span
+></td><td id="15"><a href="#15">15</a></td></tr
+><tr id="gr_svn163_16"
+
+ onmouseover="gutterOver(16)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',16);">&nbsp;</span
+></td><td id="16"><a href="#16">16</a></td></tr
+><tr id="gr_svn163_17"
+
+ onmouseover="gutterOver(17)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',17);">&nbsp;</span
+></td><td id="17"><a href="#17">17</a></td></tr
+><tr id="gr_svn163_18"
+
+ onmouseover="gutterOver(18)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',18);">&nbsp;</span
+></td><td id="18"><a href="#18">18</a></td></tr
+><tr id="gr_svn163_19"
+
+ onmouseover="gutterOver(19)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',19);">&nbsp;</span
+></td><td id="19"><a href="#19">19</a></td></tr
+><tr id="gr_svn163_20"
+
+ onmouseover="gutterOver(20)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',20);">&nbsp;</span
+></td><td id="20"><a href="#20">20</a></td></tr
+><tr id="gr_svn163_21"
+
+ onmouseover="gutterOver(21)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',21);">&nbsp;</span
+></td><td id="21"><a href="#21">21</a></td></tr
+><tr id="gr_svn163_22"
+
+ onmouseover="gutterOver(22)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',22);">&nbsp;</span
+></td><td id="22"><a href="#22">22</a></td></tr
+><tr id="gr_svn163_23"
+
+ onmouseover="gutterOver(23)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',23);">&nbsp;</span
+></td><td id="23"><a href="#23">23</a></td></tr
+><tr id="gr_svn163_24"
+
+ onmouseover="gutterOver(24)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',24);">&nbsp;</span
+></td><td id="24"><a href="#24">24</a></td></tr
+><tr id="gr_svn163_25"
+
+ onmouseover="gutterOver(25)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',25);">&nbsp;</span
+></td><td id="25"><a href="#25">25</a></td></tr
+><tr id="gr_svn163_26"
+
+ onmouseover="gutterOver(26)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',26);">&nbsp;</span
+></td><td id="26"><a href="#26">26</a></td></tr
+><tr id="gr_svn163_27"
+
+ onmouseover="gutterOver(27)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',27);">&nbsp;</span
+></td><td id="27"><a href="#27">27</a></td></tr
+><tr id="gr_svn163_28"
+
+ onmouseover="gutterOver(28)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',28);">&nbsp;</span
+></td><td id="28"><a href="#28">28</a></td></tr
+><tr id="gr_svn163_29"
+
+ onmouseover="gutterOver(29)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',29);">&nbsp;</span
+></td><td id="29"><a href="#29">29</a></td></tr
+><tr id="gr_svn163_30"
+
+ onmouseover="gutterOver(30)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',30);">&nbsp;</span
+></td><td id="30"><a href="#30">30</a></td></tr
+><tr id="gr_svn163_31"
+
+ onmouseover="gutterOver(31)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',31);">&nbsp;</span
+></td><td id="31"><a href="#31">31</a></td></tr
+><tr id="gr_svn163_32"
+
+ onmouseover="gutterOver(32)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',32);">&nbsp;</span
+></td><td id="32"><a href="#32">32</a></td></tr
+><tr id="gr_svn163_33"
+
+ onmouseover="gutterOver(33)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',33);">&nbsp;</span
+></td><td id="33"><a href="#33">33</a></td></tr
+><tr id="gr_svn163_34"
+
+ onmouseover="gutterOver(34)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',34);">&nbsp;</span
+></td><td id="34"><a href="#34">34</a></td></tr
+><tr id="gr_svn163_35"
+
+ onmouseover="gutterOver(35)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',35);">&nbsp;</span
+></td><td id="35"><a href="#35">35</a></td></tr
+><tr id="gr_svn163_36"
+
+ onmouseover="gutterOver(36)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',36);">&nbsp;</span
+></td><td id="36"><a href="#36">36</a></td></tr
+><tr id="gr_svn163_37"
+
+ onmouseover="gutterOver(37)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',37);">&nbsp;</span
+></td><td id="37"><a href="#37">37</a></td></tr
+><tr id="gr_svn163_38"
+
+ onmouseover="gutterOver(38)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',38);">&nbsp;</span
+></td><td id="38"><a href="#38">38</a></td></tr
+><tr id="gr_svn163_39"
+
+ onmouseover="gutterOver(39)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',39);">&nbsp;</span
+></td><td id="39"><a href="#39">39</a></td></tr
+><tr id="gr_svn163_40"
+
+ onmouseover="gutterOver(40)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',40);">&nbsp;</span
+></td><td id="40"><a href="#40">40</a></td></tr
+><tr id="gr_svn163_41"
+
+ onmouseover="gutterOver(41)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',41);">&nbsp;</span
+></td><td id="41"><a href="#41">41</a></td></tr
+><tr id="gr_svn163_42"
+
+ onmouseover="gutterOver(42)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',42);">&nbsp;</span
+></td><td id="42"><a href="#42">42</a></td></tr
+><tr id="gr_svn163_43"
+
+ onmouseover="gutterOver(43)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',43);">&nbsp;</span
+></td><td id="43"><a href="#43">43</a></td></tr
+><tr id="gr_svn163_44"
+
+ onmouseover="gutterOver(44)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',44);">&nbsp;</span
+></td><td id="44"><a href="#44">44</a></td></tr
+><tr id="gr_svn163_45"
+
+ onmouseover="gutterOver(45)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',45);">&nbsp;</span
+></td><td id="45"><a href="#45">45</a></td></tr
+><tr id="gr_svn163_46"
+
+ onmouseover="gutterOver(46)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',46);">&nbsp;</span
+></td><td id="46"><a href="#46">46</a></td></tr
+><tr id="gr_svn163_47"
+
+ onmouseover="gutterOver(47)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',47);">&nbsp;</span
+></td><td id="47"><a href="#47">47</a></td></tr
+><tr id="gr_svn163_48"
+
+ onmouseover="gutterOver(48)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',48);">&nbsp;</span
+></td><td id="48"><a href="#48">48</a></td></tr
+><tr id="gr_svn163_49"
+
+ onmouseover="gutterOver(49)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',49);">&nbsp;</span
+></td><td id="49"><a href="#49">49</a></td></tr
+><tr id="gr_svn163_50"
+
+ onmouseover="gutterOver(50)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',50);">&nbsp;</span
+></td><td id="50"><a href="#50">50</a></td></tr
+><tr id="gr_svn163_51"
+
+ onmouseover="gutterOver(51)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',51);">&nbsp;</span
+></td><td id="51"><a href="#51">51</a></td></tr
+><tr id="gr_svn163_52"
+
+ onmouseover="gutterOver(52)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',52);">&nbsp;</span
+></td><td id="52"><a href="#52">52</a></td></tr
+><tr id="gr_svn163_53"
+
+ onmouseover="gutterOver(53)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',53);">&nbsp;</span
+></td><td id="53"><a href="#53">53</a></td></tr
+><tr id="gr_svn163_54"
+
+ onmouseover="gutterOver(54)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',54);">&nbsp;</span
+></td><td id="54"><a href="#54">54</a></td></tr
+><tr id="gr_svn163_55"
+
+ onmouseover="gutterOver(55)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',55);">&nbsp;</span
+></td><td id="55"><a href="#55">55</a></td></tr
+><tr id="gr_svn163_56"
+
+ onmouseover="gutterOver(56)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',56);">&nbsp;</span
+></td><td id="56"><a href="#56">56</a></td></tr
+><tr id="gr_svn163_57"
+
+ onmouseover="gutterOver(57)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',57);">&nbsp;</span
+></td><td id="57"><a href="#57">57</a></td></tr
+><tr id="gr_svn163_58"
+
+ onmouseover="gutterOver(58)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',58);">&nbsp;</span
+></td><td id="58"><a href="#58">58</a></td></tr
+><tr id="gr_svn163_59"
+
+ onmouseover="gutterOver(59)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',59);">&nbsp;</span
+></td><td id="59"><a href="#59">59</a></td></tr
+><tr id="gr_svn163_60"
+
+ onmouseover="gutterOver(60)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',60);">&nbsp;</span
+></td><td id="60"><a href="#60">60</a></td></tr
+><tr id="gr_svn163_61"
+
+ onmouseover="gutterOver(61)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',61);">&nbsp;</span
+></td><td id="61"><a href="#61">61</a></td></tr
+><tr id="gr_svn163_62"
+
+ onmouseover="gutterOver(62)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',62);">&nbsp;</span
+></td><td id="62"><a href="#62">62</a></td></tr
+><tr id="gr_svn163_63"
+
+ onmouseover="gutterOver(63)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',63);">&nbsp;</span
+></td><td id="63"><a href="#63">63</a></td></tr
+><tr id="gr_svn163_64"
+
+ onmouseover="gutterOver(64)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',64);">&nbsp;</span
+></td><td id="64"><a href="#64">64</a></td></tr
+><tr id="gr_svn163_65"
+
+ onmouseover="gutterOver(65)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',65);">&nbsp;</span
+></td><td id="65"><a href="#65">65</a></td></tr
+><tr id="gr_svn163_66"
+
+ onmouseover="gutterOver(66)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',66);">&nbsp;</span
+></td><td id="66"><a href="#66">66</a></td></tr
+><tr id="gr_svn163_67"
+
+ onmouseover="gutterOver(67)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',67);">&nbsp;</span
+></td><td id="67"><a href="#67">67</a></td></tr
+><tr id="gr_svn163_68"
+
+ onmouseover="gutterOver(68)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',68);">&nbsp;</span
+></td><td id="68"><a href="#68">68</a></td></tr
+><tr id="gr_svn163_69"
+
+ onmouseover="gutterOver(69)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',69);">&nbsp;</span
+></td><td id="69"><a href="#69">69</a></td></tr
+><tr id="gr_svn163_70"
+
+ onmouseover="gutterOver(70)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',70);">&nbsp;</span
+></td><td id="70"><a href="#70">70</a></td></tr
+><tr id="gr_svn163_71"
+
+ onmouseover="gutterOver(71)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',71);">&nbsp;</span
+></td><td id="71"><a href="#71">71</a></td></tr
+><tr id="gr_svn163_72"
+
+ onmouseover="gutterOver(72)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',72);">&nbsp;</span
+></td><td id="72"><a href="#72">72</a></td></tr
+><tr id="gr_svn163_73"
+
+ onmouseover="gutterOver(73)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',73);">&nbsp;</span
+></td><td id="73"><a href="#73">73</a></td></tr
+><tr id="gr_svn163_74"
+
+ onmouseover="gutterOver(74)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',74);">&nbsp;</span
+></td><td id="74"><a href="#74">74</a></td></tr
+><tr id="gr_svn163_75"
+
+ onmouseover="gutterOver(75)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',75);">&nbsp;</span
+></td><td id="75"><a href="#75">75</a></td></tr
+><tr id="gr_svn163_76"
+
+ onmouseover="gutterOver(76)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',76);">&nbsp;</span
+></td><td id="76"><a href="#76">76</a></td></tr
+><tr id="gr_svn163_77"
+
+ onmouseover="gutterOver(77)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',77);">&nbsp;</span
+></td><td id="77"><a href="#77">77</a></td></tr
+><tr id="gr_svn163_78"
+
+ onmouseover="gutterOver(78)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',78);">&nbsp;</span
+></td><td id="78"><a href="#78">78</a></td></tr
+><tr id="gr_svn163_79"
+
+ onmouseover="gutterOver(79)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',79);">&nbsp;</span
+></td><td id="79"><a href="#79">79</a></td></tr
+><tr id="gr_svn163_80"
+
+ onmouseover="gutterOver(80)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',80);">&nbsp;</span
+></td><td id="80"><a href="#80">80</a></td></tr
+><tr id="gr_svn163_81"
+
+ onmouseover="gutterOver(81)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',81);">&nbsp;</span
+></td><td id="81"><a href="#81">81</a></td></tr
+><tr id="gr_svn163_82"
+
+ onmouseover="gutterOver(82)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',82);">&nbsp;</span
+></td><td id="82"><a href="#82">82</a></td></tr
+><tr id="gr_svn163_83"
+
+ onmouseover="gutterOver(83)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',83);">&nbsp;</span
+></td><td id="83"><a href="#83">83</a></td></tr
+><tr id="gr_svn163_84"
+
+ onmouseover="gutterOver(84)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',84);">&nbsp;</span
+></td><td id="84"><a href="#84">84</a></td></tr
+><tr id="gr_svn163_85"
+
+ onmouseover="gutterOver(85)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',85);">&nbsp;</span
+></td><td id="85"><a href="#85">85</a></td></tr
+><tr id="gr_svn163_86"
+
+ onmouseover="gutterOver(86)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',86);">&nbsp;</span
+></td><td id="86"><a href="#86">86</a></td></tr
+><tr id="gr_svn163_87"
+
+ onmouseover="gutterOver(87)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',87);">&nbsp;</span
+></td><td id="87"><a href="#87">87</a></td></tr
+><tr id="gr_svn163_88"
+
+ onmouseover="gutterOver(88)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',88);">&nbsp;</span
+></td><td id="88"><a href="#88">88</a></td></tr
+><tr id="gr_svn163_89"
+
+ onmouseover="gutterOver(89)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',89);">&nbsp;</span
+></td><td id="89"><a href="#89">89</a></td></tr
+><tr id="gr_svn163_90"
+
+ onmouseover="gutterOver(90)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',90);">&nbsp;</span
+></td><td id="90"><a href="#90">90</a></td></tr
+><tr id="gr_svn163_91"
+
+ onmouseover="gutterOver(91)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',91);">&nbsp;</span
+></td><td id="91"><a href="#91">91</a></td></tr
+><tr id="gr_svn163_92"
+
+ onmouseover="gutterOver(92)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',92);">&nbsp;</span
+></td><td id="92"><a href="#92">92</a></td></tr
+><tr id="gr_svn163_93"
+
+ onmouseover="gutterOver(93)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',93);">&nbsp;</span
+></td><td id="93"><a href="#93">93</a></td></tr
+><tr id="gr_svn163_94"
+
+ onmouseover="gutterOver(94)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',94);">&nbsp;</span
+></td><td id="94"><a href="#94">94</a></td></tr
+><tr id="gr_svn163_95"
+
+ onmouseover="gutterOver(95)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',95);">&nbsp;</span
+></td><td id="95"><a href="#95">95</a></td></tr
+><tr id="gr_svn163_96"
+
+ onmouseover="gutterOver(96)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',96);">&nbsp;</span
+></td><td id="96"><a href="#96">96</a></td></tr
+><tr id="gr_svn163_97"
+
+ onmouseover="gutterOver(97)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',97);">&nbsp;</span
+></td><td id="97"><a href="#97">97</a></td></tr
+><tr id="gr_svn163_98"
+
+ onmouseover="gutterOver(98)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',98);">&nbsp;</span
+></td><td id="98"><a href="#98">98</a></td></tr
+><tr id="gr_svn163_99"
+
+ onmouseover="gutterOver(99)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',99);">&nbsp;</span
+></td><td id="99"><a href="#99">99</a></td></tr
+><tr id="gr_svn163_100"
+
+ onmouseover="gutterOver(100)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',100);">&nbsp;</span
+></td><td id="100"><a href="#100">100</a></td></tr
+><tr id="gr_svn163_101"
+
+ onmouseover="gutterOver(101)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',101);">&nbsp;</span
+></td><td id="101"><a href="#101">101</a></td></tr
+><tr id="gr_svn163_102"
+
+ onmouseover="gutterOver(102)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',102);">&nbsp;</span
+></td><td id="102"><a href="#102">102</a></td></tr
+><tr id="gr_svn163_103"
+
+ onmouseover="gutterOver(103)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',103);">&nbsp;</span
+></td><td id="103"><a href="#103">103</a></td></tr
+><tr id="gr_svn163_104"
+
+ onmouseover="gutterOver(104)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',104);">&nbsp;</span
+></td><td id="104"><a href="#104">104</a></td></tr
+><tr id="gr_svn163_105"
+
+ onmouseover="gutterOver(105)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',105);">&nbsp;</span
+></td><td id="105"><a href="#105">105</a></td></tr
+><tr id="gr_svn163_106"
+
+ onmouseover="gutterOver(106)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',106);">&nbsp;</span
+></td><td id="106"><a href="#106">106</a></td></tr
+><tr id="gr_svn163_107"
+
+ onmouseover="gutterOver(107)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',107);">&nbsp;</span
+></td><td id="107"><a href="#107">107</a></td></tr
+><tr id="gr_svn163_108"
+
+ onmouseover="gutterOver(108)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',108);">&nbsp;</span
+></td><td id="108"><a href="#108">108</a></td></tr
+><tr id="gr_svn163_109"
+
+ onmouseover="gutterOver(109)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',109);">&nbsp;</span
+></td><td id="109"><a href="#109">109</a></td></tr
+><tr id="gr_svn163_110"
+
+ onmouseover="gutterOver(110)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',110);">&nbsp;</span
+></td><td id="110"><a href="#110">110</a></td></tr
+><tr id="gr_svn163_111"
+
+ onmouseover="gutterOver(111)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',111);">&nbsp;</span
+></td><td id="111"><a href="#111">111</a></td></tr
+><tr id="gr_svn163_112"
+
+ onmouseover="gutterOver(112)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',112);">&nbsp;</span
+></td><td id="112"><a href="#112">112</a></td></tr
+><tr id="gr_svn163_113"
+
+ onmouseover="gutterOver(113)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',113);">&nbsp;</span
+></td><td id="113"><a href="#113">113</a></td></tr
+><tr id="gr_svn163_114"
+
+ onmouseover="gutterOver(114)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',114);">&nbsp;</span
+></td><td id="114"><a href="#114">114</a></td></tr
+><tr id="gr_svn163_115"
+
+ onmouseover="gutterOver(115)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',115);">&nbsp;</span
+></td><td id="115"><a href="#115">115</a></td></tr
+><tr id="gr_svn163_116"
+
+ onmouseover="gutterOver(116)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',116);">&nbsp;</span
+></td><td id="116"><a href="#116">116</a></td></tr
+><tr id="gr_svn163_117"
+
+ onmouseover="gutterOver(117)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',117);">&nbsp;</span
+></td><td id="117"><a href="#117">117</a></td></tr
+><tr id="gr_svn163_118"
+
+ onmouseover="gutterOver(118)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',118);">&nbsp;</span
+></td><td id="118"><a href="#118">118</a></td></tr
+><tr id="gr_svn163_119"
+
+ onmouseover="gutterOver(119)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',119);">&nbsp;</span
+></td><td id="119"><a href="#119">119</a></td></tr
+><tr id="gr_svn163_120"
+
+ onmouseover="gutterOver(120)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',120);">&nbsp;</span
+></td><td id="120"><a href="#120">120</a></td></tr
+><tr id="gr_svn163_121"
+
+ onmouseover="gutterOver(121)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',121);">&nbsp;</span
+></td><td id="121"><a href="#121">121</a></td></tr
+><tr id="gr_svn163_122"
+
+ onmouseover="gutterOver(122)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',122);">&nbsp;</span
+></td><td id="122"><a href="#122">122</a></td></tr
+><tr id="gr_svn163_123"
+
+ onmouseover="gutterOver(123)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',123);">&nbsp;</span
+></td><td id="123"><a href="#123">123</a></td></tr
+><tr id="gr_svn163_124"
+
+ onmouseover="gutterOver(124)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',124);">&nbsp;</span
+></td><td id="124"><a href="#124">124</a></td></tr
+><tr id="gr_svn163_125"
+
+ onmouseover="gutterOver(125)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',125);">&nbsp;</span
+></td><td id="125"><a href="#125">125</a></td></tr
+><tr id="gr_svn163_126"
+
+ onmouseover="gutterOver(126)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',126);">&nbsp;</span
+></td><td id="126"><a href="#126">126</a></td></tr
+><tr id="gr_svn163_127"
+
+ onmouseover="gutterOver(127)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',127);">&nbsp;</span
+></td><td id="127"><a href="#127">127</a></td></tr
+><tr id="gr_svn163_128"
+
+ onmouseover="gutterOver(128)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',128);">&nbsp;</span
+></td><td id="128"><a href="#128">128</a></td></tr
+><tr id="gr_svn163_129"
+
+ onmouseover="gutterOver(129)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',129);">&nbsp;</span
+></td><td id="129"><a href="#129">129</a></td></tr
+><tr id="gr_svn163_130"
+
+ onmouseover="gutterOver(130)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',130);">&nbsp;</span
+></td><td id="130"><a href="#130">130</a></td></tr
+><tr id="gr_svn163_131"
+
+ onmouseover="gutterOver(131)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',131);">&nbsp;</span
+></td><td id="131"><a href="#131">131</a></td></tr
+><tr id="gr_svn163_132"
+
+ onmouseover="gutterOver(132)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',132);">&nbsp;</span
+></td><td id="132"><a href="#132">132</a></td></tr
+><tr id="gr_svn163_133"
+
+ onmouseover="gutterOver(133)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',133);">&nbsp;</span
+></td><td id="133"><a href="#133">133</a></td></tr
+><tr id="gr_svn163_134"
+
+ onmouseover="gutterOver(134)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',134);">&nbsp;</span
+></td><td id="134"><a href="#134">134</a></td></tr
+><tr id="gr_svn163_135"
+
+ onmouseover="gutterOver(135)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',135);">&nbsp;</span
+></td><td id="135"><a href="#135">135</a></td></tr
+><tr id="gr_svn163_136"
+
+ onmouseover="gutterOver(136)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',136);">&nbsp;</span
+></td><td id="136"><a href="#136">136</a></td></tr
+><tr id="gr_svn163_137"
+
+ onmouseover="gutterOver(137)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',137);">&nbsp;</span
+></td><td id="137"><a href="#137">137</a></td></tr
+><tr id="gr_svn163_138"
+
+ onmouseover="gutterOver(138)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',138);">&nbsp;</span
+></td><td id="138"><a href="#138">138</a></td></tr
+><tr id="gr_svn163_139"
+
+ onmouseover="gutterOver(139)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',139);">&nbsp;</span
+></td><td id="139"><a href="#139">139</a></td></tr
+><tr id="gr_svn163_140"
+
+ onmouseover="gutterOver(140)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',140);">&nbsp;</span
+></td><td id="140"><a href="#140">140</a></td></tr
+><tr id="gr_svn163_141"
+
+ onmouseover="gutterOver(141)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',141);">&nbsp;</span
+></td><td id="141"><a href="#141">141</a></td></tr
+><tr id="gr_svn163_142"
+
+ onmouseover="gutterOver(142)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',142);">&nbsp;</span
+></td><td id="142"><a href="#142">142</a></td></tr
+><tr id="gr_svn163_143"
+
+ onmouseover="gutterOver(143)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',143);">&nbsp;</span
+></td><td id="143"><a href="#143">143</a></td></tr
+><tr id="gr_svn163_144"
+
+ onmouseover="gutterOver(144)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',144);">&nbsp;</span
+></td><td id="144"><a href="#144">144</a></td></tr
+><tr id="gr_svn163_145"
+
+ onmouseover="gutterOver(145)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',145);">&nbsp;</span
+></td><td id="145"><a href="#145">145</a></td></tr
+><tr id="gr_svn163_146"
+
+ onmouseover="gutterOver(146)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',146);">&nbsp;</span
+></td><td id="146"><a href="#146">146</a></td></tr
+><tr id="gr_svn163_147"
+
+ onmouseover="gutterOver(147)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',147);">&nbsp;</span
+></td><td id="147"><a href="#147">147</a></td></tr
+><tr id="gr_svn163_148"
+
+ onmouseover="gutterOver(148)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',148);">&nbsp;</span
+></td><td id="148"><a href="#148">148</a></td></tr
+><tr id="gr_svn163_149"
+
+ onmouseover="gutterOver(149)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',149);">&nbsp;</span
+></td><td id="149"><a href="#149">149</a></td></tr
+><tr id="gr_svn163_150"
+
+ onmouseover="gutterOver(150)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',150);">&nbsp;</span
+></td><td id="150"><a href="#150">150</a></td></tr
+><tr id="gr_svn163_151"
+
+ onmouseover="gutterOver(151)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',151);">&nbsp;</span
+></td><td id="151"><a href="#151">151</a></td></tr
+><tr id="gr_svn163_152"
+
+ onmouseover="gutterOver(152)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',152);">&nbsp;</span
+></td><td id="152"><a href="#152">152</a></td></tr
+><tr id="gr_svn163_153"
+
+ onmouseover="gutterOver(153)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',153);">&nbsp;</span
+></td><td id="153"><a href="#153">153</a></td></tr
+><tr id="gr_svn163_154"
+
+ onmouseover="gutterOver(154)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',154);">&nbsp;</span
+></td><td id="154"><a href="#154">154</a></td></tr
+><tr id="gr_svn163_155"
+
+ onmouseover="gutterOver(155)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',155);">&nbsp;</span
+></td><td id="155"><a href="#155">155</a></td></tr
+><tr id="gr_svn163_156"
+
+ onmouseover="gutterOver(156)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',156);">&nbsp;</span
+></td><td id="156"><a href="#156">156</a></td></tr
+><tr id="gr_svn163_157"
+
+ onmouseover="gutterOver(157)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',157);">&nbsp;</span
+></td><td id="157"><a href="#157">157</a></td></tr
+><tr id="gr_svn163_158"
+
+ onmouseover="gutterOver(158)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',158);">&nbsp;</span
+></td><td id="158"><a href="#158">158</a></td></tr
+><tr id="gr_svn163_159"
+
+ onmouseover="gutterOver(159)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',159);">&nbsp;</span
+></td><td id="159"><a href="#159">159</a></td></tr
+><tr id="gr_svn163_160"
+
+ onmouseover="gutterOver(160)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',160);">&nbsp;</span
+></td><td id="160"><a href="#160">160</a></td></tr
+><tr id="gr_svn163_161"
+
+ onmouseover="gutterOver(161)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',161);">&nbsp;</span
+></td><td id="161"><a href="#161">161</a></td></tr
+><tr id="gr_svn163_162"
+
+ onmouseover="gutterOver(162)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',162);">&nbsp;</span
+></td><td id="162"><a href="#162">162</a></td></tr
+><tr id="gr_svn163_163"
+
+ onmouseover="gutterOver(163)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',163);">&nbsp;</span
+></td><td id="163"><a href="#163">163</a></td></tr
+><tr id="gr_svn163_164"
+
+ onmouseover="gutterOver(164)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',164);">&nbsp;</span
+></td><td id="164"><a href="#164">164</a></td></tr
+><tr id="gr_svn163_165"
+
+ onmouseover="gutterOver(165)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',165);">&nbsp;</span
+></td><td id="165"><a href="#165">165</a></td></tr
+><tr id="gr_svn163_166"
+
+ onmouseover="gutterOver(166)"
+
+><td><span title="Add comment" onclick="codereviews.startEdit('svn163',166);">&nbsp;</span
+></td><td id="166"><a href="#166">166</a></td></tr
+></table></pre>
+<pre><table width="100%"><tr class="nocursor"><td></td></tr></table></pre>
+</td>
+<td id="lines">
+<pre><table width="100%"><tr class="cursor_stop cursor_hidden"><td></td></tr></table></pre>
+<pre ><table id="src_table_0"><tr
+id=sl_svn163_1
+
+ onmouseover="gutterOver(1)"
+
+><td class="source">		   GNU LESSER GENERAL PUBLIC LICENSE<br></td></tr
+><tr
+id=sl_svn163_2
+
+ onmouseover="gutterOver(2)"
+
+><td class="source">                       Version 3, 29 June 2007<br></td></tr
+><tr
+id=sl_svn163_3
+
+ onmouseover="gutterOver(3)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_4
+
+ onmouseover="gutterOver(4)"
+
+><td class="source"> Copyright (C) 2007 Free Software Foundation, Inc. &lt;http://fsf.org/&gt;<br></td></tr
+><tr
+id=sl_svn163_5
+
+ onmouseover="gutterOver(5)"
+
+><td class="source"> Everyone is permitted to copy and distribute verbatim copies<br></td></tr
+><tr
+id=sl_svn163_6
+
+ onmouseover="gutterOver(6)"
+
+><td class="source"> of this license document, but changing it is not allowed.<br></td></tr
+><tr
+id=sl_svn163_7
+
+ onmouseover="gutterOver(7)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_8
+
+ onmouseover="gutterOver(8)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_9
+
+ onmouseover="gutterOver(9)"
+
+><td class="source">  This version of the GNU Lesser General Public License incorporates<br></td></tr
+><tr
+id=sl_svn163_10
+
+ onmouseover="gutterOver(10)"
+
+><td class="source">the terms and conditions of version 3 of the GNU General Public<br></td></tr
+><tr
+id=sl_svn163_11
+
+ onmouseover="gutterOver(11)"
+
+><td class="source">License, supplemented by the additional permissions listed below.<br></td></tr
+><tr
+id=sl_svn163_12
+
+ onmouseover="gutterOver(12)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_13
+
+ onmouseover="gutterOver(13)"
+
+><td class="source">  0. Additional Definitions. <br></td></tr
+><tr
+id=sl_svn163_14
+
+ onmouseover="gutterOver(14)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_15
+
+ onmouseover="gutterOver(15)"
+
+><td class="source">  As used herein, &quot;this License&quot; refers to version 3 of the GNU Lesser<br></td></tr
+><tr
+id=sl_svn163_16
+
+ onmouseover="gutterOver(16)"
+
+><td class="source">General Public License, and the &quot;GNU GPL&quot; refers to version 3 of the GNU<br></td></tr
+><tr
+id=sl_svn163_17
+
+ onmouseover="gutterOver(17)"
+
+><td class="source">General Public License.<br></td></tr
+><tr
+id=sl_svn163_18
+
+ onmouseover="gutterOver(18)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_19
+
+ onmouseover="gutterOver(19)"
+
+><td class="source">  &quot;The Library&quot; refers to a covered work governed by this License,<br></td></tr
+><tr
+id=sl_svn163_20
+
+ onmouseover="gutterOver(20)"
+
+><td class="source">other than an Application or a Combined Work as defined below.<br></td></tr
+><tr
+id=sl_svn163_21
+
+ onmouseover="gutterOver(21)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_22
+
+ onmouseover="gutterOver(22)"
+
+><td class="source">  An &quot;Application&quot; is any work that makes use of an interface provided<br></td></tr
+><tr
+id=sl_svn163_23
+
+ onmouseover="gutterOver(23)"
+
+><td class="source">by the Library, but which is not otherwise based on the Library.<br></td></tr
+><tr
+id=sl_svn163_24
+
+ onmouseover="gutterOver(24)"
+
+><td class="source">Defining a subclass of a class defined by the Library is deemed a mode<br></td></tr
+><tr
+id=sl_svn163_25
+
+ onmouseover="gutterOver(25)"
+
+><td class="source">of using an interface provided by the Library.<br></td></tr
+><tr
+id=sl_svn163_26
+
+ onmouseover="gutterOver(26)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_27
+
+ onmouseover="gutterOver(27)"
+
+><td class="source">  A &quot;Combined Work&quot; is a work produced by combining or linking an<br></td></tr
+><tr
+id=sl_svn163_28
+
+ onmouseover="gutterOver(28)"
+
+><td class="source">Application with the Library.  The particular version of the Library<br></td></tr
+><tr
+id=sl_svn163_29
+
+ onmouseover="gutterOver(29)"
+
+><td class="source">with which the Combined Work was made is also called the &quot;Linked<br></td></tr
+><tr
+id=sl_svn163_30
+
+ onmouseover="gutterOver(30)"
+
+><td class="source">Version&quot;.<br></td></tr
+><tr
+id=sl_svn163_31
+
+ onmouseover="gutterOver(31)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_32
+
+ onmouseover="gutterOver(32)"
+
+><td class="source">  The &quot;Minimal Corresponding Source&quot; for a Combined Work means the<br></td></tr
+><tr
+id=sl_svn163_33
+
+ onmouseover="gutterOver(33)"
+
+><td class="source">Corresponding Source for the Combined Work, excluding any source code<br></td></tr
+><tr
+id=sl_svn163_34
+
+ onmouseover="gutterOver(34)"
+
+><td class="source">for portions of the Combined Work that, considered in isolation, are<br></td></tr
+><tr
+id=sl_svn163_35
+
+ onmouseover="gutterOver(35)"
+
+><td class="source">based on the Application, and not on the Linked Version.<br></td></tr
+><tr
+id=sl_svn163_36
+
+ onmouseover="gutterOver(36)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_37
+
+ onmouseover="gutterOver(37)"
+
+><td class="source">  The &quot;Corresponding Application Code&quot; for a Combined Work means the<br></td></tr
+><tr
+id=sl_svn163_38
+
+ onmouseover="gutterOver(38)"
+
+><td class="source">object code and/or source code for the Application, including any data<br></td></tr
+><tr
+id=sl_svn163_39
+
+ onmouseover="gutterOver(39)"
+
+><td class="source">and utility programs needed for reproducing the Combined Work from the<br></td></tr
+><tr
+id=sl_svn163_40
+
+ onmouseover="gutterOver(40)"
+
+><td class="source">Application, but excluding the System Libraries of the Combined Work.<br></td></tr
+><tr
+id=sl_svn163_41
+
+ onmouseover="gutterOver(41)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_42
+
+ onmouseover="gutterOver(42)"
+
+><td class="source">  1. Exception to Section 3 of the GNU GPL.<br></td></tr
+><tr
+id=sl_svn163_43
+
+ onmouseover="gutterOver(43)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_44
+
+ onmouseover="gutterOver(44)"
+
+><td class="source">  You may convey a covered work under sections 3 and 4 of this License<br></td></tr
+><tr
+id=sl_svn163_45
+
+ onmouseover="gutterOver(45)"
+
+><td class="source">without being bound by section 3 of the GNU GPL.<br></td></tr
+><tr
+id=sl_svn163_46
+
+ onmouseover="gutterOver(46)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_47
+
+ onmouseover="gutterOver(47)"
+
+><td class="source">  2. Conveying Modified Versions.<br></td></tr
+><tr
+id=sl_svn163_48
+
+ onmouseover="gutterOver(48)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_49
+
+ onmouseover="gutterOver(49)"
+
+><td class="source">  If you modify a copy of the Library, and, in your modifications, a<br></td></tr
+><tr
+id=sl_svn163_50
+
+ onmouseover="gutterOver(50)"
+
+><td class="source">facility refers to a function or data to be supplied by an Application<br></td></tr
+><tr
+id=sl_svn163_51
+
+ onmouseover="gutterOver(51)"
+
+><td class="source">that uses the facility (other than as an argument passed when the<br></td></tr
+><tr
+id=sl_svn163_52
+
+ onmouseover="gutterOver(52)"
+
+><td class="source">facility is invoked), then you may convey a copy of the modified<br></td></tr
+><tr
+id=sl_svn163_53
+
+ onmouseover="gutterOver(53)"
+
+><td class="source">version:<br></td></tr
+><tr
+id=sl_svn163_54
+
+ onmouseover="gutterOver(54)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_55
+
+ onmouseover="gutterOver(55)"
+
+><td class="source">   a) under this License, provided that you make a good faith effort to<br></td></tr
+><tr
+id=sl_svn163_56
+
+ onmouseover="gutterOver(56)"
+
+><td class="source">   ensure that, in the event an Application does not supply the<br></td></tr
+><tr
+id=sl_svn163_57
+
+ onmouseover="gutterOver(57)"
+
+><td class="source">   function or data, the facility still operates, and performs<br></td></tr
+><tr
+id=sl_svn163_58
+
+ onmouseover="gutterOver(58)"
+
+><td class="source">   whatever part of its purpose remains meaningful, or<br></td></tr
+><tr
+id=sl_svn163_59
+
+ onmouseover="gutterOver(59)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_60
+
+ onmouseover="gutterOver(60)"
+
+><td class="source">   b) under the GNU GPL, with none of the additional permissions of<br></td></tr
+><tr
+id=sl_svn163_61
+
+ onmouseover="gutterOver(61)"
+
+><td class="source">   this License applicable to that copy.<br></td></tr
+><tr
+id=sl_svn163_62
+
+ onmouseover="gutterOver(62)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_63
+
+ onmouseover="gutterOver(63)"
+
+><td class="source">  3. Object Code Incorporating Material from Library Header Files.<br></td></tr
+><tr
+id=sl_svn163_64
+
+ onmouseover="gutterOver(64)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_65
+
+ onmouseover="gutterOver(65)"
+
+><td class="source">  The object code form of an Application may incorporate material from<br></td></tr
+><tr
+id=sl_svn163_66
+
+ onmouseover="gutterOver(66)"
+
+><td class="source">a header file that is part of the Library.  You may convey such object<br></td></tr
+><tr
+id=sl_svn163_67
+
+ onmouseover="gutterOver(67)"
+
+><td class="source">code under terms of your choice, provided that, if the incorporated<br></td></tr
+><tr
+id=sl_svn163_68
+
+ onmouseover="gutterOver(68)"
+
+><td class="source">material is not limited to numerical parameters, data structure<br></td></tr
+><tr
+id=sl_svn163_69
+
+ onmouseover="gutterOver(69)"
+
+><td class="source">layouts and accessors, or small macros, inline functions and templates<br></td></tr
+><tr
+id=sl_svn163_70
+
+ onmouseover="gutterOver(70)"
+
+><td class="source">(ten or fewer lines in length), you do both of the following:<br></td></tr
+><tr
+id=sl_svn163_71
+
+ onmouseover="gutterOver(71)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_72
+
+ onmouseover="gutterOver(72)"
+
+><td class="source">   a) Give prominent notice with each copy of the object code that the<br></td></tr
+><tr
+id=sl_svn163_73
+
+ onmouseover="gutterOver(73)"
+
+><td class="source">   Library is used in it and that the Library and its use are<br></td></tr
+><tr
+id=sl_svn163_74
+
+ onmouseover="gutterOver(74)"
+
+><td class="source">   covered by this License.<br></td></tr
+><tr
+id=sl_svn163_75
+
+ onmouseover="gutterOver(75)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_76
+
+ onmouseover="gutterOver(76)"
+
+><td class="source">   b) Accompany the object code with a copy of the GNU GPL and this license<br></td></tr
+><tr
+id=sl_svn163_77
+
+ onmouseover="gutterOver(77)"
+
+><td class="source">   document.<br></td></tr
+><tr
+id=sl_svn163_78
+
+ onmouseover="gutterOver(78)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_79
+
+ onmouseover="gutterOver(79)"
+
+><td class="source">  4. Combined Works.<br></td></tr
+><tr
+id=sl_svn163_80
+
+ onmouseover="gutterOver(80)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_81
+
+ onmouseover="gutterOver(81)"
+
+><td class="source">  You may convey a Combined Work under terms of your choice that,<br></td></tr
+><tr
+id=sl_svn163_82
+
+ onmouseover="gutterOver(82)"
+
+><td class="source">taken together, effectively do not restrict modification of the<br></td></tr
+><tr
+id=sl_svn163_83
+
+ onmouseover="gutterOver(83)"
+
+><td class="source">portions of the Library contained in the Combined Work and reverse<br></td></tr
+><tr
+id=sl_svn163_84
+
+ onmouseover="gutterOver(84)"
+
+><td class="source">engineering for debugging such modifications, if you also do each of<br></td></tr
+><tr
+id=sl_svn163_85
+
+ onmouseover="gutterOver(85)"
+
+><td class="source">the following:<br></td></tr
+><tr
+id=sl_svn163_86
+
+ onmouseover="gutterOver(86)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_87
+
+ onmouseover="gutterOver(87)"
+
+><td class="source">   a) Give prominent notice with each copy of the Combined Work that<br></td></tr
+><tr
+id=sl_svn163_88
+
+ onmouseover="gutterOver(88)"
+
+><td class="source">   the Library is used in it and that the Library and its use are<br></td></tr
+><tr
+id=sl_svn163_89
+
+ onmouseover="gutterOver(89)"
+
+><td class="source">   covered by this License.<br></td></tr
+><tr
+id=sl_svn163_90
+
+ onmouseover="gutterOver(90)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_91
+
+ onmouseover="gutterOver(91)"
+
+><td class="source">   b) Accompany the Combined Work with a copy of the GNU GPL and this license<br></td></tr
+><tr
+id=sl_svn163_92
+
+ onmouseover="gutterOver(92)"
+
+><td class="source">   document.<br></td></tr
+><tr
+id=sl_svn163_93
+
+ onmouseover="gutterOver(93)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_94
+
+ onmouseover="gutterOver(94)"
+
+><td class="source">   c) For a Combined Work that displays copyright notices during<br></td></tr
+><tr
+id=sl_svn163_95
+
+ onmouseover="gutterOver(95)"
+
+><td class="source">   execution, include the copyright notice for the Library among<br></td></tr
+><tr
+id=sl_svn163_96
+
+ onmouseover="gutterOver(96)"
+
+><td class="source">   these notices, as well as a reference directing the user to the<br></td></tr
+><tr
+id=sl_svn163_97
+
+ onmouseover="gutterOver(97)"
+
+><td class="source">   copies of the GNU GPL and this license document.<br></td></tr
+><tr
+id=sl_svn163_98
+
+ onmouseover="gutterOver(98)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_99
+
+ onmouseover="gutterOver(99)"
+
+><td class="source">   d) Do one of the following:<br></td></tr
+><tr
+id=sl_svn163_100
+
+ onmouseover="gutterOver(100)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_101
+
+ onmouseover="gutterOver(101)"
+
+><td class="source">       0) Convey the Minimal Corresponding Source under the terms of this<br></td></tr
+><tr
+id=sl_svn163_102
+
+ onmouseover="gutterOver(102)"
+
+><td class="source">       License, and the Corresponding Application Code in a form<br></td></tr
+><tr
+id=sl_svn163_103
+
+ onmouseover="gutterOver(103)"
+
+><td class="source">       suitable for, and under terms that permit, the user to<br></td></tr
+><tr
+id=sl_svn163_104
+
+ onmouseover="gutterOver(104)"
+
+><td class="source">       recombine or relink the Application with a modified version of<br></td></tr
+><tr
+id=sl_svn163_105
+
+ onmouseover="gutterOver(105)"
+
+><td class="source">       the Linked Version to produce a modified Combined Work, in the<br></td></tr
+><tr
+id=sl_svn163_106
+
+ onmouseover="gutterOver(106)"
+
+><td class="source">       manner specified by section 6 of the GNU GPL for conveying<br></td></tr
+><tr
+id=sl_svn163_107
+
+ onmouseover="gutterOver(107)"
+
+><td class="source">       Corresponding Source.<br></td></tr
+><tr
+id=sl_svn163_108
+
+ onmouseover="gutterOver(108)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_109
+
+ onmouseover="gutterOver(109)"
+
+><td class="source">       1) Use a suitable shared library mechanism for linking with the<br></td></tr
+><tr
+id=sl_svn163_110
+
+ onmouseover="gutterOver(110)"
+
+><td class="source">       Library.  A suitable mechanism is one that (a) uses at run time<br></td></tr
+><tr
+id=sl_svn163_111
+
+ onmouseover="gutterOver(111)"
+
+><td class="source">       a copy of the Library already present on the user&#39;s computer<br></td></tr
+><tr
+id=sl_svn163_112
+
+ onmouseover="gutterOver(112)"
+
+><td class="source">       system, and (b) will operate properly with a modified version<br></td></tr
+><tr
+id=sl_svn163_113
+
+ onmouseover="gutterOver(113)"
+
+><td class="source">       of the Library that is interface-compatible with the Linked<br></td></tr
+><tr
+id=sl_svn163_114
+
+ onmouseover="gutterOver(114)"
+
+><td class="source">       Version. <br></td></tr
+><tr
+id=sl_svn163_115
+
+ onmouseover="gutterOver(115)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_116
+
+ onmouseover="gutterOver(116)"
+
+><td class="source">   e) Provide Installation Information, but only if you would otherwise<br></td></tr
+><tr
+id=sl_svn163_117
+
+ onmouseover="gutterOver(117)"
+
+><td class="source">   be required to provide such information under section 6 of the<br></td></tr
+><tr
+id=sl_svn163_118
+
+ onmouseover="gutterOver(118)"
+
+><td class="source">   GNU GPL, and only to the extent that such information is<br></td></tr
+><tr
+id=sl_svn163_119
+
+ onmouseover="gutterOver(119)"
+
+><td class="source">   necessary to install and execute a modified version of the<br></td></tr
+><tr
+id=sl_svn163_120
+
+ onmouseover="gutterOver(120)"
+
+><td class="source">   Combined Work produced by recombining or relinking the<br></td></tr
+><tr
+id=sl_svn163_121
+
+ onmouseover="gutterOver(121)"
+
+><td class="source">   Application with a modified version of the Linked Version. (If<br></td></tr
+><tr
+id=sl_svn163_122
+
+ onmouseover="gutterOver(122)"
+
+><td class="source">   you use option 4d0, the Installation Information must accompany<br></td></tr
+><tr
+id=sl_svn163_123
+
+ onmouseover="gutterOver(123)"
+
+><td class="source">   the Minimal Corresponding Source and Corresponding Application<br></td></tr
+><tr
+id=sl_svn163_124
+
+ onmouseover="gutterOver(124)"
+
+><td class="source">   Code. If you use option 4d1, you must provide the Installation<br></td></tr
+><tr
+id=sl_svn163_125
+
+ onmouseover="gutterOver(125)"
+
+><td class="source">   Information in the manner specified by section 6 of the GNU GPL<br></td></tr
+><tr
+id=sl_svn163_126
+
+ onmouseover="gutterOver(126)"
+
+><td class="source">   for conveying Corresponding Source.)<br></td></tr
+><tr
+id=sl_svn163_127
+
+ onmouseover="gutterOver(127)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_128
+
+ onmouseover="gutterOver(128)"
+
+><td class="source">  5. Combined Libraries.<br></td></tr
+><tr
+id=sl_svn163_129
+
+ onmouseover="gutterOver(129)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_130
+
+ onmouseover="gutterOver(130)"
+
+><td class="source">  You may place library facilities that are a work based on the<br></td></tr
+><tr
+id=sl_svn163_131
+
+ onmouseover="gutterOver(131)"
+
+><td class="source">Library side by side in a single library together with other library<br></td></tr
+><tr
+id=sl_svn163_132
+
+ onmouseover="gutterOver(132)"
+
+><td class="source">facilities that are not Applications and are not covered by this<br></td></tr
+><tr
+id=sl_svn163_133
+
+ onmouseover="gutterOver(133)"
+
+><td class="source">License, and convey such a combined library under terms of your<br></td></tr
+><tr
+id=sl_svn163_134
+
+ onmouseover="gutterOver(134)"
+
+><td class="source">choice, if you do both of the following:<br></td></tr
+><tr
+id=sl_svn163_135
+
+ onmouseover="gutterOver(135)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_136
+
+ onmouseover="gutterOver(136)"
+
+><td class="source">   a) Accompany the combined library with a copy of the same work based<br></td></tr
+><tr
+id=sl_svn163_137
+
+ onmouseover="gutterOver(137)"
+
+><td class="source">   on the Library, uncombined with any other library facilities,<br></td></tr
+><tr
+id=sl_svn163_138
+
+ onmouseover="gutterOver(138)"
+
+><td class="source">   conveyed under the terms of this License.<br></td></tr
+><tr
+id=sl_svn163_139
+
+ onmouseover="gutterOver(139)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_140
+
+ onmouseover="gutterOver(140)"
+
+><td class="source">   b) Give prominent notice with the combined library that part of it<br></td></tr
+><tr
+id=sl_svn163_141
+
+ onmouseover="gutterOver(141)"
+
+><td class="source">   is a work based on the Library, and explaining where to find the<br></td></tr
+><tr
+id=sl_svn163_142
+
+ onmouseover="gutterOver(142)"
+
+><td class="source">   accompanying uncombined form of the same work.<br></td></tr
+><tr
+id=sl_svn163_143
+
+ onmouseover="gutterOver(143)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_144
+
+ onmouseover="gutterOver(144)"
+
+><td class="source">  6. Revised Versions of the GNU Lesser General Public License.<br></td></tr
+><tr
+id=sl_svn163_145
+
+ onmouseover="gutterOver(145)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_146
+
+ onmouseover="gutterOver(146)"
+
+><td class="source">  The Free Software Foundation may publish revised and/or new versions<br></td></tr
+><tr
+id=sl_svn163_147
+
+ onmouseover="gutterOver(147)"
+
+><td class="source">of the GNU Lesser General Public License from time to time. Such new<br></td></tr
+><tr
+id=sl_svn163_148
+
+ onmouseover="gutterOver(148)"
+
+><td class="source">versions will be similar in spirit to the present version, but may<br></td></tr
+><tr
+id=sl_svn163_149
+
+ onmouseover="gutterOver(149)"
+
+><td class="source">differ in detail to address new problems or concerns.<br></td></tr
+><tr
+id=sl_svn163_150
+
+ onmouseover="gutterOver(150)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_151
+
+ onmouseover="gutterOver(151)"
+
+><td class="source">  Each version is given a distinguishing version number. If the<br></td></tr
+><tr
+id=sl_svn163_152
+
+ onmouseover="gutterOver(152)"
+
+><td class="source">Library as you received it specifies that a certain numbered version<br></td></tr
+><tr
+id=sl_svn163_153
+
+ onmouseover="gutterOver(153)"
+
+><td class="source">of the GNU Lesser General Public License &quot;or any later version&quot;<br></td></tr
+><tr
+id=sl_svn163_154
+
+ onmouseover="gutterOver(154)"
+
+><td class="source">applies to it, you have the option of following the terms and<br></td></tr
+><tr
+id=sl_svn163_155
+
+ onmouseover="gutterOver(155)"
+
+><td class="source">conditions either of that published version or of any later version<br></td></tr
+><tr
+id=sl_svn163_156
+
+ onmouseover="gutterOver(156)"
+
+><td class="source">published by the Free Software Foundation. If the Library as you<br></td></tr
+><tr
+id=sl_svn163_157
+
+ onmouseover="gutterOver(157)"
+
+><td class="source">received it does not specify a version number of the GNU Lesser<br></td></tr
+><tr
+id=sl_svn163_158
+
+ onmouseover="gutterOver(158)"
+
+><td class="source">General Public License, you may choose any version of the GNU Lesser<br></td></tr
+><tr
+id=sl_svn163_159
+
+ onmouseover="gutterOver(159)"
+
+><td class="source">General Public License ever published by the Free Software Foundation.<br></td></tr
+><tr
+id=sl_svn163_160
+
+ onmouseover="gutterOver(160)"
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn163_161
+
+ onmouseover="gutterOver(161)"
+
+><td class="source">  If the Library as you received it specifies that a proxy can decide<br></td></tr
+><tr
+id=sl_svn163_162
+
+ onmouseover="gutterOver(162)"
+
+><td class="source">whether future versions of the GNU Lesser General Public License shall<br></td></tr
+><tr
+id=sl_svn163_163
+
+ onmouseover="gutterOver(163)"
+
+><td class="source">apply, that proxy&#39;s public statement of acceptance of any version is<br></td></tr
+><tr
+id=sl_svn163_164
+
+ onmouseover="gutterOver(164)"
+
+><td class="source">permanent authorization for you to choose that version for the<br></td></tr
+><tr
+id=sl_svn163_165
+
+ onmouseover="gutterOver(165)"
+
+><td class="source">Library.<br></td></tr
+><tr
+id=sl_svn163_166
+
+ onmouseover="gutterOver(166)"
+
+><td class="source"><br></td></tr
+></table></pre>
+<pre><table width="100%"><tr class="cursor_stop cursor_hidden"><td></td></tr></table></pre>
+</td>
+</tr></table>
+
+ 
+<script type="text/javascript">
+ var lineNumUnderMouse = -1;
+ 
+ function gutterOver(num) {
+ gutterOut();
+ var newTR = document.getElementById('gr_svn163_' + num);
+ if (newTR) {
+ newTR.className = 'undermouse';
+ }
+ lineNumUnderMouse = num;
+ }
+ function gutterOut() {
+ if (lineNumUnderMouse != -1) {
+ var oldTR = document.getElementById(
+ 'gr_svn163_' + lineNumUnderMouse);
+ if (oldTR) {
+ oldTR.className = '';
+ }
+ lineNumUnderMouse = -1;
+ }
+ }
+ var numsGenState = {table_base_id: 'nums_table_'};
+ var srcGenState = {table_base_id: 'src_table_'};
+ var alignerRunning = false;
+ var startOver = false;
+ function setLineNumberHeights() {
+ if (alignerRunning) {
+ startOver = true;
+ return;
+ }
+ numsGenState.chunk_id = 0;
+ numsGenState.table = document.getElementById('nums_table_0');
+ numsGenState.row_num = 0;
+ if (!numsGenState.table) {
+ return; // Silently exit if no file is present.
+ }
+ srcGenState.chunk_id = 0;
+ srcGenState.table = document.getElementById('src_table_0');
+ srcGenState.row_num = 0;
+ alignerRunning = true;
+ continueToSetLineNumberHeights();
+ }
+ function rowGenerator(genState) {
+ if (genState.row_num < genState.table.rows.length) {
+ var currentRow = genState.table.rows[genState.row_num];
+ genState.row_num++;
+ return currentRow;
+ }
+ var newTable = document.getElementById(
+ genState.table_base_id + (genState.chunk_id + 1));
+ if (newTable) {
+ genState.chunk_id++;
+ genState.row_num = 0;
+ genState.table = newTable;
+ return genState.table.rows[0];
+ }
+ return null;
+ }
+ var MAX_ROWS_PER_PASS = 1000;
+ function continueToSetLineNumberHeights() {
+ var rowsInThisPass = 0;
+ var numRow = 1;
+ var srcRow = 1;
+ while (numRow && srcRow && rowsInThisPass < MAX_ROWS_PER_PASS) {
+ numRow = rowGenerator(numsGenState);
+ srcRow = rowGenerator(srcGenState);
+ rowsInThisPass++;
+ if (numRow && srcRow) {
+ if (numRow.offsetHeight != srcRow.offsetHeight) {
+ numRow.firstChild.style.height = srcRow.offsetHeight + 'px';
+ }
+ }
+ }
+ if (rowsInThisPass >= MAX_ROWS_PER_PASS) {
+ setTimeout(continueToSetLineNumberHeights, 10);
+ } else {
+ alignerRunning = false;
+ if (startOver) {
+ startOver = false;
+ setTimeout(setLineNumberHeights, 500);
+ }
+ }
+ }
+ function initLineNumberHeights() {
+ // Do 2 complete passes, because there can be races
+ // between this code and prettify.
+ startOver = true;
+ setTimeout(setLineNumberHeights, 250);
+ window.onresize = setLineNumberHeights;
+ }
+ initLineNumberHeights();
+</script>
+
+ 
+ 
+ <div id="log">
+ <div style="text-align:right">
+ <a class="ifCollapse" href="#" onclick="_toggleMeta(this); return false">Show details</a>
+ <a class="ifExpand" href="#" onclick="_toggleMeta(this); return false">Hide details</a>
+ </div>
+ <div class="ifExpand">
+ 
+ 
+ <div class="pmeta_bubble_bg" style="border:1px solid white">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <div id="changelog">
+ <p>Change log</p>
+ <div>
+ <a href="/p/nuwani/source/detail?spec=svn163&amp;r=122">r122</a>
+ by beverloo.peter
+ on Oct 2, 2010
+ &nbsp; <a href="/p/nuwani/source/diff?spec=svn163&r=122&amp;format=side&amp;path=/trunk/LGPL-LICENSE.txt&amp;old_path=/trunk/LGPL-LICENSE.txt&amp;old=">Diff</a>
+ </div>
+ <pre>Import of the AUTHORS and LGPL-LICENSE
+file, together with a tests directory with
+PHPUnit and my test-runner</pre>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ <script type="text/javascript">
+ var detail_url = '/p/nuwani/source/detail?r=122&spec=svn163';
+ var publish_url = '/p/nuwani/source/detail?r=122&spec=svn163#publish';
+ // describe the paths of this revision in javascript.
+ var changed_paths = [];
+ var changed_urls = [];
+ 
+ changed_paths.push('/trunk/AUTHORS');
+ changed_urls.push('/p/nuwani/source/browse/trunk/AUTHORS?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/LGPL-LICENSE.txt');
+ changed_urls.push('/p/nuwani/source/browse/trunk/LGPL-LICENSE.txt?r\x3d122\x26spec\x3dsvn163');
+ 
+ var selected_path = '/trunk/LGPL-LICENSE.txt';
+ 
+ 
+ changed_paths.push('/trunk/src/License.txt');
+ changed_urls.push('/p/nuwani/source/browse/trunk/src/License.txt?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/AbstractTester.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/AbstractTester.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Constraint');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Constraint?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Constraint/DataSetIsEqual.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Constraint/DataSetIsEqual.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Constraint/TableIsEqual.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Constraint/TableIsEqual.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/DataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/DataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/DefaultDatabaseConnection.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/DefaultDatabaseConnection.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/FilteredDataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/FilteredDataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/IDatabaseConnection.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/IDatabaseConnection.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/IMetaData.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/IMetaData.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/InformationSchema.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/InformationSchema.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/MySQL.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/MySQL.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/Oci.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/Oci.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/PgSQL.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/PgSQL.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/Sqlite.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/Sqlite.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/ResultSetTable.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/ResultSetTable.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/Table.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/Table.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/TableIterator.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/TableIterator.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DB/TableMetaData.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/TableMetaData.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/AbstractDataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/AbstractDataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/AbstractTable.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/AbstractTable.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/AbstractTableMetaData.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/AbstractTableMetaData.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/AbstractXmlDataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/AbstractXmlDataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/CompositeDataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/CompositeDataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/CsvDataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/CsvDataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/DataSetFilter.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/DataSetFilter.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/DefaultDataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/DefaultDataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/DefaultTable.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/DefaultTable.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/DefaultTableIterator.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/DefaultTableIterator.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/DefaultTableMetaData.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/DefaultTableMetaData.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/FlatXmlDataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/FlatXmlDataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/IDataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/IDataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/IPersistable.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/IPersistable.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/ISpec.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ISpec.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/ITable.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ITable.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/ITableIterator.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ITableIterator.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/ITableMetaData.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ITableMetaData.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/Abstract.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/Abstract.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/Factory.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/Factory.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/FlatXml.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/FlatXml.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/Xml.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/Xml.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/Yaml.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/Yaml.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/QueryDataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/QueryDataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/QueryTable.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/QueryTable.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/ReplacementDataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ReplacementDataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/ReplacementTable.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ReplacementTable.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/ReplacementTableIterator.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ReplacementTableIterator.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/Csv.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/Csv.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/DbQuery.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/DbQuery.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/DbTable.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/DbTable.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/Factory.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/Factory.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/FlatXml.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/FlatXml.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/IFactory.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/IFactory.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/Xml.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/Xml.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/Yaml.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/Yaml.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/TableFilter.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/TableFilter.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/TableMetaDataFilter.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/TableMetaDataFilter.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/XmlDataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/XmlDataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DataSet/YamlDataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/YamlDataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/DefaultTester.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DefaultTester.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/IDatabaseListConsumer.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/IDatabaseListConsumer.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/ITester.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/ITester.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Operation');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Operation/Composite.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Composite.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Operation/Delete.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Delete.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Operation/DeleteAll.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/DeleteAll.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Operation/Exception.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Exception.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Operation/Factory.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Factory.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Operation/IDatabaseOperation.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/IDatabaseOperation.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Operation/Insert.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Insert.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Operation/Null.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Null.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Operation/Replace.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Replace.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Operation/RowBased.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/RowBased.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Operation/Truncate.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Truncate.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/Operation/Update.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Update.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/TestCase.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/TestCase.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/Command.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Command.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/Context.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Context.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/IMedium.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/IMedium.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/IMediumPrinter.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/IMediumPrinter.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/IMode.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/IMode.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/IModeFactory.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/IModeFactory.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/InvalidModeException.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/InvalidModeException.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/Mediums');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Mediums?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/Mediums/Text.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Mediums/Text.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/ModeFactory.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/ModeFactory.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/Modes');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Modes?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/Modes/ExportDataSet');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Modes/ExportDataSet?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/Modes/ExportDataSet.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Modes/ExportDataSet.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Database/UI/Modes/ExportDataSet/Arguments.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Modes/ExportDataSet/Arguments.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/GroupTestSuite.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/GroupTestSuite.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/OutputTestCase.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/OutputTestCase.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/PerformanceTestCase.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/PerformanceTestCase.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/PhptTestCase');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/PhptTestCase?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/PhptTestCase.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/PhptTestCase.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/PhptTestCase/Logger.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/PhptTestCase/Logger.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/PhptTestSuite.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/PhptTestSuite.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/RepeatedTest.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/RepeatedTest.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/SeleniumTestCase');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/SeleniumTestCase?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/SeleniumTestCase.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/SeleniumTestCase.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/SeleniumTestCase/Driver.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/SeleniumTestCase/Driver.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/SeleniumTestCase/append.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/SeleniumTestCase/append.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/SeleniumTestCase/phpunit_coverage.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/SeleniumTestCase/phpunit_coverage.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/SeleniumTestCase/prepend.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/SeleniumTestCase/prepend.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/Given.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/Given.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/HTML.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/HTML.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template/scenario.html.dist');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template/scenario.html.dist?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template/scenario_header.html.dist');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template/scenario_header.html.dist?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template/scenarios.html.dist');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template/scenarios.html.dist?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template/step.html.dist');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template/step.html.dist?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Text.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Text.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/Scenario.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/Scenario.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/SeleniumTestCase.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/SeleniumTestCase.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/Step.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/Step.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/TestCase.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/TestCase.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/Then.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/Then.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/Story/When.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/When.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/TestDecorator.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/TestDecorator.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/TicketListener');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/TicketListener?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/TicketListener.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/TicketListener.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Extensions/TicketListener/Trac.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/TicketListener/Trac.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Assert.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Assert.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/AssertionFailedError.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/AssertionFailedError.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/ComparisonFailure');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/ComparisonFailure.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/ComparisonFailure/Array.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure/Array.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/ComparisonFailure/Object.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure/Object.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/ComparisonFailure/Scalar.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure/Scalar.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/ComparisonFailure/String.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure/String.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/ComparisonFailure/Type.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure/Type.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/And.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/And.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/ArrayHasKey.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/ArrayHasKey.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/Attribute.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/Attribute.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/ClassHasAttribute.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/ClassHasAttribute.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/ClassHasStaticAttribute.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/ClassHasStaticAttribute.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/FileExists.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/FileExists.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/GreaterThan.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/GreaterThan.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/IsAnything.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsAnything.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/IsEqual.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsEqual.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/IsFalse.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsFalse.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/IsIdentical.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsIdentical.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/IsInstanceOf.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsInstanceOf.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/IsNull.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsNull.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/IsTrue.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsTrue.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/IsType.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsType.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/LessThan.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/LessThan.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/Not.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/Not.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/ObjectHasAttribute.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/ObjectHasAttribute.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/Or.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/Or.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/PCREMatch.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/PCREMatch.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/StringContains.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/StringContains.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/StringEndsWith.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/StringEndsWith.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/StringStartsWith.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/StringStartsWith.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/TraversableContains.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/TraversableContains.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/TraversableContainsOnly.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/TraversableContainsOnly.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Constraint/Xor.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/Xor.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Error');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Error?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Error.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Error.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Error/Notice.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Error/Notice.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Error/Warning.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Error/Warning.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/Exception.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Exception.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/ExpectationFailedException.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ExpectationFailedException.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/IncompleteTest.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/IncompleteTest.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/IncompleteTestError.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/IncompleteTestError.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Builder');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Builder/Identity.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/Identity.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Builder/InvocationMocker.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/InvocationMocker.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Builder/Match.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/Match.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Builder/MethodNameMatch.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/MethodNameMatch.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Builder/Namespace.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/Namespace.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Builder/ParametersMatch.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/ParametersMatch.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Builder/Stub.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/Stub.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Generator');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Generator?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Generator.php');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Generator.php?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Generator/mocked_class.tpl.dist');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Generator/mocked_class.tpl.dist?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Generator/mocked_clone.tpl.dist');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Generator/mocked_clone.tpl.dist?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Generator/mocked_method.tpl.dist');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Generator/mocked_method.tpl.dist?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ changed_paths.push('/trunk/tests/PHPUnit/Framework/MockObject/Generator/unmocked_clone.tpl.dist');
+ changed_urls.push('/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Generator/unmocked_clone.tpl.dist?r\x3d122\x26spec\x3dsvn163');
+ 
+ 
+ function getCurrentPageIndex() {
+ for (var i = 0; i < changed_paths.length; i++) {
+ if (selected_path == changed_paths[i]) {
+ return i;
+ }
+ }
+ }
+ function getNextPage() {
+ var i = getCurrentPageIndex();
+ if (i < changed_paths.length - 1) {
+ return changed_urls[i + 1];
+ }
+ return null;
+ }
+ function getPreviousPage() {
+ var i = getCurrentPageIndex();
+ if (i > 0) {
+ return changed_urls[i - 1];
+ }
+ return null;
+ }
+ function gotoNextPage() {
+ var page = getNextPage();
+ if (!page) {
+ page = detail_url;
+ }
+ window.location = page;
+ }
+ function gotoPreviousPage() {
+ var page = getPreviousPage();
+ if (!page) {
+ page = detail_url;
+ }
+ window.location = page;
+ }
+ function gotoDetailPage() {
+ window.location = detail_url;
+ }
+ function gotoPublishPage() {
+ window.location = publish_url;
+ }
+</script>
+
+ 
+ <style type="text/css">
+ #review_nav {
+ border-top: 3px solid white;
+ padding-top: 6px;
+ margin-top: 1em;
+ }
+ #review_nav td {
+ vertical-align: middle;
+ }
+ #review_nav select {
+ margin: .5em 0;
+ }
+ </style>
+ <div id="review_nav">
+ <table><tr><td>Go to:&nbsp;</td><td>
+ <select name="files_in_rev" onchange="window.location=this.value">
+ 
+ <option value="/p/nuwani/source/browse/trunk/AUTHORS?r=122&amp;spec=svn163"
+ 
+ >/trunk/AUTHORS</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/LGPL-LICENSE.txt?r=122&amp;spec=svn163"
+ selected="selected"
+ >/trunk/LGPL-LICENSE.txt</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/src/License.txt?r=122&amp;spec=svn163"
+ 
+ >/trunk/src/License.txt</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests?r=122&amp;spec=svn163"
+ 
+ >/trunk/tests</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit?r=122&amp;spec=svn163"
+ 
+ >/trunk/tests/PHPUnit</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions?r=122&amp;spec=svn163"
+ 
+ >/trunk/tests/PHPUnit/Extensions</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database?r=122&amp;spec=svn163"
+ 
+ >...ests/PHPUnit/Extensions/Database</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/AbstractTester.php?r=122&amp;spec=svn163"
+ 
+ >...ions/Database/AbstractTester.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Constraint?r=122&amp;spec=svn163"
+ 
+ >...t/Extensions/Database/Constraint</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Constraint/DataSetIsEqual.php?r=122&amp;spec=svn163"
+ 
+ >...se/Constraint/DataSetIsEqual.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Constraint/TableIsEqual.php?r=122&amp;spec=svn163"
+ 
+ >...base/Constraint/TableIsEqual.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB?r=122&amp;spec=svn163"
+ 
+ >...s/PHPUnit/Extensions/Database/DB</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/DataSet.php?r=122&amp;spec=svn163"
+ 
+ >...tensions/Database/DB/DataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/DefaultDatabaseConnection.php?r=122&amp;spec=svn163"
+ 
+ >...DB/DefaultDatabaseConnection.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/FilteredDataSet.php?r=122&amp;spec=svn163"
+ 
+ >.../Database/DB/FilteredDataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/IDatabaseConnection.php?r=122&amp;spec=svn163"
+ 
+ >...abase/DB/IDatabaseConnection.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/IMetaData.php?r=122&amp;spec=svn163"
+ 
+ >...nsions/Database/DB/IMetaData.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData?r=122&amp;spec=svn163"
+ 
+ >.../Extensions/Database/DB/MetaData</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData.php?r=122&amp;spec=svn163"
+ 
+ >...ensions/Database/DB/MetaData.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/InformationSchema.php?r=122&amp;spec=svn163"
+ 
+ >...B/MetaData/InformationSchema.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/MySQL.php?r=122&amp;spec=svn163"
+ 
+ >...s/Database/DB/MetaData/MySQL.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/Oci.php?r=122&amp;spec=svn163"
+ 
+ >...ons/Database/DB/MetaData/Oci.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/PgSQL.php?r=122&amp;spec=svn163"
+ 
+ >...s/Database/DB/MetaData/PgSQL.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/MetaData/Sqlite.php?r=122&amp;spec=svn163"
+ 
+ >.../Database/DB/MetaData/Sqlite.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/ResultSetTable.php?r=122&amp;spec=svn163"
+ 
+ >...s/Database/DB/ResultSetTable.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/Table.php?r=122&amp;spec=svn163"
+ 
+ >...Extensions/Database/DB/Table.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/TableIterator.php?r=122&amp;spec=svn163"
+ 
+ >...ns/Database/DB/TableIterator.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DB/TableMetaData.php?r=122&amp;spec=svn163"
+ 
+ >...ns/Database/DB/TableMetaData.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet?r=122&amp;spec=svn163"
+ 
+ >...Unit/Extensions/Database/DataSet</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/AbstractDataSet.php?r=122&amp;spec=svn163"
+ 
+ >...base/DataSet/AbstractDataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/AbstractTable.php?r=122&amp;spec=svn163"
+ 
+ >...tabase/DataSet/AbstractTable.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/AbstractTableMetaData.php?r=122&amp;spec=svn163"
+ 
+ >...ataSet/AbstractTableMetaData.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/AbstractXmlDataSet.php?r=122&amp;spec=svn163"
+ 
+ >...e/DataSet/AbstractXmlDataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/CompositeDataSet.php?r=122&amp;spec=svn163"
+ 
+ >...ase/DataSet/CompositeDataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/CsvDataSet.php?r=122&amp;spec=svn163"
+ 
+ >.../Database/DataSet/CsvDataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/DataSetFilter.php?r=122&amp;spec=svn163"
+ 
+ >...tabase/DataSet/DataSetFilter.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/DefaultDataSet.php?r=122&amp;spec=svn163"
+ 
+ >...abase/DataSet/DefaultDataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/DefaultTable.php?r=122&amp;spec=svn163"
+ 
+ >...atabase/DataSet/DefaultTable.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/DefaultTableIterator.php?r=122&amp;spec=svn163"
+ 
+ >...DataSet/DefaultTableIterator.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/DefaultTableMetaData.php?r=122&amp;spec=svn163"
+ 
+ >...DataSet/DefaultTableMetaData.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/FlatXmlDataSet.php?r=122&amp;spec=svn163"
+ 
+ >...abase/DataSet/FlatXmlDataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/IDataSet.php?r=122&amp;spec=svn163"
+ 
+ >...ns/Database/DataSet/IDataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/IPersistable.php?r=122&amp;spec=svn163"
+ 
+ >...atabase/DataSet/IPersistable.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ISpec.php?r=122&amp;spec=svn163"
+ 
+ >...sions/Database/DataSet/ISpec.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ITable.php?r=122&amp;spec=svn163"
+ 
+ >...ions/Database/DataSet/ITable.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ITableIterator.php?r=122&amp;spec=svn163"
+ 
+ >...abase/DataSet/ITableIterator.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ITableMetaData.php?r=122&amp;spec=svn163"
+ 
+ >...abase/DataSet/ITableMetaData.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors?r=122&amp;spec=svn163"
+ 
+ >...ions/Database/DataSet/Persistors</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/Abstract.php?r=122&amp;spec=svn163"
+ 
+ >.../DataSet/Persistors/Abstract.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/Factory.php?r=122&amp;spec=svn163"
+ 
+ >...e/DataSet/Persistors/Factory.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/FlatXml.php?r=122&amp;spec=svn163"
+ 
+ >...e/DataSet/Persistors/FlatXml.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/Xml.php?r=122&amp;spec=svn163"
+ 
+ >...abase/DataSet/Persistors/Xml.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Persistors/Yaml.php?r=122&amp;spec=svn163"
+ 
+ >...base/DataSet/Persistors/Yaml.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/QueryDataSet.php?r=122&amp;spec=svn163"
+ 
+ >...atabase/DataSet/QueryDataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/QueryTable.php?r=122&amp;spec=svn163"
+ 
+ >.../Database/DataSet/QueryTable.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ReplacementDataSet.php?r=122&amp;spec=svn163"
+ 
+ >...e/DataSet/ReplacementDataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ReplacementTable.php?r=122&amp;spec=svn163"
+ 
+ >...ase/DataSet/ReplacementTable.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/ReplacementTableIterator.php?r=122&amp;spec=svn163"
+ 
+ >...Set/ReplacementTableIterator.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs?r=122&amp;spec=svn163"
+ 
+ >...xtensions/Database/DataSet/Specs</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/Csv.php?r=122&amp;spec=svn163"
+ 
+ >...s/Database/DataSet/Specs/Csv.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/DbQuery.php?r=122&amp;spec=svn163"
+ 
+ >...tabase/DataSet/Specs/DbQuery.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/DbTable.php?r=122&amp;spec=svn163"
+ 
+ >...tabase/DataSet/Specs/DbTable.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/Factory.php?r=122&amp;spec=svn163"
+ 
+ >...tabase/DataSet/Specs/Factory.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/FlatXml.php?r=122&amp;spec=svn163"
+ 
+ >...tabase/DataSet/Specs/FlatXml.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/IFactory.php?r=122&amp;spec=svn163"
+ 
+ >...abase/DataSet/Specs/IFactory.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/Xml.php?r=122&amp;spec=svn163"
+ 
+ >...s/Database/DataSet/Specs/Xml.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/Specs/Yaml.php?r=122&amp;spec=svn163"
+ 
+ >.../Database/DataSet/Specs/Yaml.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/TableFilter.php?r=122&amp;spec=svn163"
+ 
+ >...Database/DataSet/TableFilter.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/TableMetaDataFilter.php?r=122&amp;spec=svn163"
+ 
+ >.../DataSet/TableMetaDataFilter.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/XmlDataSet.php?r=122&amp;spec=svn163"
+ 
+ >.../Database/DataSet/XmlDataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DataSet/YamlDataSet.php?r=122&amp;spec=svn163"
+ 
+ >...Database/DataSet/YamlDataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/DefaultTester.php?r=122&amp;spec=svn163"
+ 
+ >...sions/Database/DefaultTester.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/IDatabaseListConsumer.php?r=122&amp;spec=svn163"
+ 
+ >...tabase/IDatabaseListConsumer.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/ITester.php?r=122&amp;spec=svn163"
+ 
+ >.../Extensions/Database/ITester.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation?r=122&amp;spec=svn163"
+ 
+ >...it/Extensions/Database/Operation</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Composite.php?r=122&amp;spec=svn163"
+ 
+ >...Database/Operation/Composite.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Delete.php?r=122&amp;spec=svn163"
+ 
+ >...ns/Database/Operation/Delete.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/DeleteAll.php?r=122&amp;spec=svn163"
+ 
+ >...Database/Operation/DeleteAll.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Exception.php?r=122&amp;spec=svn163"
+ 
+ >...Database/Operation/Exception.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Factory.php?r=122&amp;spec=svn163"
+ 
+ >...s/Database/Operation/Factory.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/IDatabaseOperation.php?r=122&amp;spec=svn163"
+ 
+ >...Operation/IDatabaseOperation.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Insert.php?r=122&amp;spec=svn163"
+ 
+ >...ns/Database/Operation/Insert.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Null.php?r=122&amp;spec=svn163"
+ 
+ >...ions/Database/Operation/Null.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Replace.php?r=122&amp;spec=svn163"
+ 
+ >...s/Database/Operation/Replace.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/RowBased.php?r=122&amp;spec=svn163"
+ 
+ >.../Database/Operation/RowBased.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Truncate.php?r=122&amp;spec=svn163"
+ 
+ >.../Database/Operation/Truncate.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/Operation/Update.php?r=122&amp;spec=svn163"
+ 
+ >...ns/Database/Operation/Update.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/TestCase.php?r=122&amp;spec=svn163"
+ 
+ >...Extensions/Database/TestCase.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI?r=122&amp;spec=svn163"
+ 
+ >...s/PHPUnit/Extensions/Database/UI</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Command.php?r=122&amp;spec=svn163"
+ 
+ >...tensions/Database/UI/Command.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Context.php?r=122&amp;spec=svn163"
+ 
+ >...tensions/Database/UI/Context.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/IMedium.php?r=122&amp;spec=svn163"
+ 
+ >...tensions/Database/UI/IMedium.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/IMediumPrinter.php?r=122&amp;spec=svn163"
+ 
+ >...s/Database/UI/IMediumPrinter.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/IMode.php?r=122&amp;spec=svn163"
+ 
+ >...Extensions/Database/UI/IMode.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/IModeFactory.php?r=122&amp;spec=svn163"
+ 
+ >...ons/Database/UI/IModeFactory.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/InvalidModeException.php?r=122&amp;spec=svn163"
+ 
+ >...base/UI/InvalidModeException.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Mediums?r=122&amp;spec=svn163"
+ 
+ >...t/Extensions/Database/UI/Mediums</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Mediums/Text.php?r=122&amp;spec=svn163"
+ 
+ >...ons/Database/UI/Mediums/Text.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/ModeFactory.php?r=122&amp;spec=svn163"
+ 
+ >...ions/Database/UI/ModeFactory.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Modes?r=122&amp;spec=svn163"
+ 
+ >...nit/Extensions/Database/UI/Modes</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Modes/ExportDataSet?r=122&amp;spec=svn163"
+ 
+ >.../Database/UI/Modes/ExportDataSet</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Modes/ExportDataSet.php?r=122&amp;spec=svn163"
+ 
+ >...abase/UI/Modes/ExportDataSet.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Database/UI/Modes/ExportDataSet/Arguments.php?r=122&amp;spec=svn163"
+ 
+ >...odes/ExportDataSet/Arguments.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/GroupTestSuite.php?r=122&amp;spec=svn163"
+ 
+ >...it/Extensions/GroupTestSuite.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/OutputTestCase.php?r=122&amp;spec=svn163"
+ 
+ >...it/Extensions/OutputTestCase.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/PerformanceTestCase.php?r=122&amp;spec=svn163"
+ 
+ >...tensions/PerformanceTestCase.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/PhptTestCase?r=122&amp;spec=svn163"
+ 
+ >.../PHPUnit/Extensions/PhptTestCase</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/PhptTestCase.php?r=122&amp;spec=svn163"
+ 
+ >...Unit/Extensions/PhptTestCase.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/PhptTestCase/Logger.php?r=122&amp;spec=svn163"
+ 
+ >...tensions/PhptTestCase/Logger.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/PhptTestSuite.php?r=122&amp;spec=svn163"
+ 
+ >...nit/Extensions/PhptTestSuite.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/RepeatedTest.php?r=122&amp;spec=svn163"
+ 
+ >...Unit/Extensions/RepeatedTest.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/SeleniumTestCase?r=122&amp;spec=svn163"
+ 
+ >...Unit/Extensions/SeleniumTestCase</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/SeleniumTestCase.php?r=122&amp;spec=svn163"
+ 
+ >.../Extensions/SeleniumTestCase.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/SeleniumTestCase/Driver.php?r=122&amp;spec=svn163"
+ 
+ >...ions/SeleniumTestCase/Driver.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/SeleniumTestCase/append.php?r=122&amp;spec=svn163"
+ 
+ >...ions/SeleniumTestCase/append.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/SeleniumTestCase/phpunit_coverage.php?r=122&amp;spec=svn163"
+ 
+ >...iumTestCase/phpunit_coverage.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/SeleniumTestCase/prepend.php?r=122&amp;spec=svn163"
+ 
+ >...ons/SeleniumTestCase/prepend.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story?r=122&amp;spec=svn163"
+ 
+ >...k/tests/PHPUnit/Extensions/Story</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/Given.php?r=122&amp;spec=svn163"
+ 
+ >...PUnit/Extensions/Story/Given.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter?r=122&amp;spec=svn163"
+ 
+ >...t/Extensions/Story/ResultPrinter</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter.php?r=122&amp;spec=svn163"
+ 
+ >...tensions/Story/ResultPrinter.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/HTML.php?r=122&amp;spec=svn163"
+ 
+ >...ons/Story/ResultPrinter/HTML.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template?r=122&amp;spec=svn163"
+ 
+ >...ons/Story/ResultPrinter/Template</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template/scenario.html.dist?r=122&amp;spec=svn163"
+ 
+ >...nter/Template/scenario.html.dist</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template/scenario_header.html.dist?r=122&amp;spec=svn163"
+ 
+ >...mplate/scenario_header.html.dist</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template/scenarios.html.dist?r=122&amp;spec=svn163"
+ 
+ >...ter/Template/scenarios.html.dist</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Template/step.html.dist?r=122&amp;spec=svn163"
+ 
+ >...tPrinter/Template/step.html.dist</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/ResultPrinter/Text.php?r=122&amp;spec=svn163"
+ 
+ >...ons/Story/ResultPrinter/Text.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/Scenario.php?r=122&amp;spec=svn163"
+ 
+ >...it/Extensions/Story/Scenario.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/SeleniumTestCase.php?r=122&amp;spec=svn163"
+ 
+ >...sions/Story/SeleniumTestCase.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/Step.php?r=122&amp;spec=svn163"
+ 
+ >...HPUnit/Extensions/Story/Step.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/TestCase.php?r=122&amp;spec=svn163"
+ 
+ >...it/Extensions/Story/TestCase.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/Then.php?r=122&amp;spec=svn163"
+ 
+ >...HPUnit/Extensions/Story/Then.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/Story/When.php?r=122&amp;spec=svn163"
+ 
+ >...HPUnit/Extensions/Story/When.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/TestDecorator.php?r=122&amp;spec=svn163"
+ 
+ >...nit/Extensions/TestDecorator.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/TicketListener?r=122&amp;spec=svn163"
+ 
+ >...HPUnit/Extensions/TicketListener</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/TicketListener.php?r=122&amp;spec=svn163"
+ 
+ >...it/Extensions/TicketListener.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Extensions/TicketListener/Trac.php?r=122&amp;spec=svn163"
+ 
+ >...tensions/TicketListener/Trac.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework?r=122&amp;spec=svn163"
+ 
+ >/trunk/tests/PHPUnit/Framework</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework.php?r=122&amp;spec=svn163"
+ 
+ >/trunk/tests/PHPUnit/Framework.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Assert.php?r=122&amp;spec=svn163"
+ 
+ >...sts/PHPUnit/Framework/Assert.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/AssertionFailedError.php?r=122&amp;spec=svn163"
+ 
+ >...amework/AssertionFailedError.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure?r=122&amp;spec=svn163"
+ 
+ >...Unit/Framework/ComparisonFailure</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure.php?r=122&amp;spec=svn163"
+ 
+ >.../Framework/ComparisonFailure.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure/Array.php?r=122&amp;spec=svn163"
+ 
+ >...work/ComparisonFailure/Array.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure/Object.php?r=122&amp;spec=svn163"
+ 
+ >...ork/ComparisonFailure/Object.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure/Scalar.php?r=122&amp;spec=svn163"
+ 
+ >...ork/ComparisonFailure/Scalar.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure/String.php?r=122&amp;spec=svn163"
+ 
+ >...ork/ComparisonFailure/String.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ComparisonFailure/Type.php?r=122&amp;spec=svn163"
+ 
+ >...ework/ComparisonFailure/Type.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint?r=122&amp;spec=svn163"
+ 
+ >...sts/PHPUnit/Framework/Constraint</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint.php?r=122&amp;spec=svn163"
+ 
+ >...PHPUnit/Framework/Constraint.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/And.php?r=122&amp;spec=svn163"
+ 
+ >...nit/Framework/Constraint/And.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/ArrayHasKey.php?r=122&amp;spec=svn163"
+ 
+ >...ework/Constraint/ArrayHasKey.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/Attribute.php?r=122&amp;spec=svn163"
+ 
+ >...amework/Constraint/Attribute.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/ClassHasAttribute.php?r=122&amp;spec=svn163"
+ 
+ >...Constraint/ClassHasAttribute.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/ClassHasStaticAttribute.php?r=122&amp;spec=svn163"
+ 
+ >...aint/ClassHasStaticAttribute.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/FileExists.php?r=122&amp;spec=svn163"
+ 
+ >...mework/Constraint/FileExists.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/GreaterThan.php?r=122&amp;spec=svn163"
+ 
+ >...ework/Constraint/GreaterThan.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsAnything.php?r=122&amp;spec=svn163"
+ 
+ >...mework/Constraint/IsAnything.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsEqual.php?r=122&amp;spec=svn163"
+ 
+ >...Framework/Constraint/IsEqual.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsFalse.php?r=122&amp;spec=svn163"
+ 
+ >...Framework/Constraint/IsFalse.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsIdentical.php?r=122&amp;spec=svn163"
+ 
+ >...ework/Constraint/IsIdentical.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsInstanceOf.php?r=122&amp;spec=svn163"
+ 
+ >...work/Constraint/IsInstanceOf.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsNull.php?r=122&amp;spec=svn163"
+ 
+ >.../Framework/Constraint/IsNull.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsTrue.php?r=122&amp;spec=svn163"
+ 
+ >.../Framework/Constraint/IsTrue.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/IsType.php?r=122&amp;spec=svn163"
+ 
+ >.../Framework/Constraint/IsType.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/LessThan.php?r=122&amp;spec=svn163"
+ 
+ >...ramework/Constraint/LessThan.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/Not.php?r=122&amp;spec=svn163"
+ 
+ >...nit/Framework/Constraint/Not.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/ObjectHasAttribute.php?r=122&amp;spec=svn163"
+ 
+ >...onstraint/ObjectHasAttribute.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/Or.php?r=122&amp;spec=svn163"
+ 
+ >...Unit/Framework/Constraint/Or.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/PCREMatch.php?r=122&amp;spec=svn163"
+ 
+ >...amework/Constraint/PCREMatch.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/StringContains.php?r=122&amp;spec=svn163"
+ 
+ >...rk/Constraint/StringContains.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/StringEndsWith.php?r=122&amp;spec=svn163"
+ 
+ >...rk/Constraint/StringEndsWith.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/StringStartsWith.php?r=122&amp;spec=svn163"
+ 
+ >.../Constraint/StringStartsWith.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/TraversableContains.php?r=122&amp;spec=svn163"
+ 
+ >...nstraint/TraversableContains.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/TraversableContainsOnly.php?r=122&amp;spec=svn163"
+ 
+ >...aint/TraversableContainsOnly.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Constraint/Xor.php?r=122&amp;spec=svn163"
+ 
+ >...nit/Framework/Constraint/Xor.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Error?r=122&amp;spec=svn163"
+ 
+ >...nk/tests/PHPUnit/Framework/Error</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Error.php?r=122&amp;spec=svn163"
+ 
+ >...ests/PHPUnit/Framework/Error.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Error/Notice.php?r=122&amp;spec=svn163"
+ 
+ >...PUnit/Framework/Error/Notice.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Error/Warning.php?r=122&amp;spec=svn163"
+ 
+ >...Unit/Framework/Error/Warning.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/Exception.php?r=122&amp;spec=svn163"
+ 
+ >.../PHPUnit/Framework/Exception.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/ExpectationFailedException.php?r=122&amp;spec=svn163"
+ 
+ >...k/ExpectationFailedException.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/IncompleteTest.php?r=122&amp;spec=svn163"
+ 
+ >...nit/Framework/IncompleteTest.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/IncompleteTestError.php?r=122&amp;spec=svn163"
+ 
+ >...ramework/IncompleteTestError.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject?r=122&amp;spec=svn163"
+ 
+ >...sts/PHPUnit/Framework/MockObject</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder?r=122&amp;spec=svn163"
+ 
+ >...nit/Framework/MockObject/Builder</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/Identity.php?r=122&amp;spec=svn163"
+ 
+ >.../MockObject/Builder/Identity.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/InvocationMocker.php?r=122&amp;spec=svn163"
+ 
+ >...ect/Builder/InvocationMocker.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/Match.php?r=122&amp;spec=svn163"
+ 
+ >...ork/MockObject/Builder/Match.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/MethodNameMatch.php?r=122&amp;spec=svn163"
+ 
+ >...ject/Builder/MethodNameMatch.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/Namespace.php?r=122&amp;spec=svn163"
+ 
+ >...MockObject/Builder/Namespace.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/ParametersMatch.php?r=122&amp;spec=svn163"
+ 
+ >...ject/Builder/ParametersMatch.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Builder/Stub.php?r=122&amp;spec=svn163"
+ 
+ >...work/MockObject/Builder/Stub.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Generator?r=122&amp;spec=svn163"
+ 
+ >...t/Framework/MockObject/Generator</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Generator.php?r=122&amp;spec=svn163"
+ 
+ >...amework/MockObject/Generator.php</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Generator/mocked_class.tpl.dist?r=122&amp;spec=svn163"
+ 
+ >.../Generator/mocked_class.tpl.dist</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Generator/mocked_clone.tpl.dist?r=122&amp;spec=svn163"
+ 
+ >.../Generator/mocked_clone.tpl.dist</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Generator/mocked_method.tpl.dist?r=122&amp;spec=svn163"
+ 
+ >...Generator/mocked_method.tpl.dist</option>
+ 
+ <option value="/p/nuwani/source/browse/trunk/tests/PHPUnit/Framework/MockObject/Generator/unmocked_clone.tpl.dist?r=122&amp;spec=svn163"
+ 
+ >...enerator/unmocked_clone.tpl.dist</option>
+ 
+ </select>
+ </td></tr></table>
+ 
+ 
+ <div id="review_instr" class="closed">
+ <a class="ifOpened" href="/p/nuwani/source/detail?r=122&spec=svn163#publish">Publish your comments</a>
+ <div class="ifClosed">Double click a line to add a comment</div>
+ </div>
+ 
+ </div>
+ 
+ 
+ </div>
+ <div class="round1"></div>
+ <div class="round2"></div>
+ <div class="round4"></div>
+ </div>
+ <div class="pmeta_bubble_bg" style="border:1px solid white">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <div id="older_bubble">
+ <p>Older revisions</p>
+ 
+ <a href="/p/nuwani/source/list?path=/trunk/LGPL-LICENSE.txt&start=122">All revisions of this file</a>
+ </div>
+ </div>
+ <div class="round1"></div>
+ <div class="round2"></div>
+ <div class="round4"></div>
+ </div>
+ 
+ <div class="pmeta_bubble_bg" style="border:1px solid white">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <div id="fileinfo_bubble">
+ <p>File info</p>
+ 
+ <div>Size: 7806 bytes,
+ 166 lines</div>
+ 
+ <div><a href="//nuwani.googlecode.com/svn/trunk/LGPL-LICENSE.txt">View raw file</a></div>
+ </div>
+ 
+ </div>
+ <div class="round1"></div>
+ <div class="round2"></div>
+ <div class="round4"></div>
+ </div>
+ </div>
+ </div>
+
+
+</div>
+
+</div>
+</div>
+
+
+<script src="https://ssl.gstatic.com/codesite/ph/15490321151412058579/js/source_file_scripts.js"></script>
+
+ <script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/15490321151412058579/js/kibbles.js"></script>
+ <script type="text/javascript">
+ var lastStop = null;
+ var initialized = false;
+ 
+ function updateCursor(next, prev) {
+ if (prev && prev.element) {
+ prev.element.className = 'cursor_stop cursor_hidden';
+ }
+ if (next && next.element) {
+ next.element.className = 'cursor_stop cursor';
+ lastStop = next.index;
+ }
+ }
+ 
+ function pubRevealed(data) {
+ updateCursorForCell(data.cellId, 'cursor_stop cursor_hidden');
+ if (initialized) {
+ reloadCursors();
+ }
+ }
+ 
+ function draftRevealed(data) {
+ updateCursorForCell(data.cellId, 'cursor_stop cursor_hidden');
+ if (initialized) {
+ reloadCursors();
+ }
+ }
+ 
+ function draftDestroyed(data) {
+ updateCursorForCell(data.cellId, 'nocursor');
+ if (initialized) {
+ reloadCursors();
+ }
+ }
+ function reloadCursors() {
+ kibbles.skipper.reset();
+ loadCursors();
+ if (lastStop != null) {
+ kibbles.skipper.setCurrentStop(lastStop);
+ }
+ }
+ // possibly the simplest way to insert any newly added comments
+ // is to update the class of the corresponding cursor row,
+ // then refresh the entire list of rows.
+ function updateCursorForCell(cellId, className) {
+ var cell = document.getElementById(cellId);
+ // we have to go two rows back to find the cursor location
+ var row = getPreviousElement(cell.parentNode);
+ row.className = className;
+ }
+ // returns the previous element, ignores text nodes.
+ function getPreviousElement(e) {
+ var element = e.previousSibling;
+ if (element.nodeType == 3) {
+ element = element.previousSibling;
+ }
+ if (element && element.tagName) {
+ return element;
+ }
+ }
+ function loadCursors() {
+ // register our elements with skipper
+ var elements = CR_getElements('*', 'cursor_stop');
+ var len = elements.length;
+ for (var i = 0; i < len; i++) {
+ var element = elements[i]; 
+ element.className = 'cursor_stop cursor_hidden';
+ kibbles.skipper.append(element);
+ }
+ }
+ function toggleComments() {
+ CR_toggleCommentDisplay();
+ reloadCursors();
+ }
+ function keysOnLoadHandler() {
+ // setup skipper
+ kibbles.skipper.addStopListener(
+ kibbles.skipper.LISTENER_TYPE.PRE, updateCursor);
+ // Set the 'offset' option to return the middle of the client area
+ // an option can be a static value, or a callback
+ kibbles.skipper.setOption('padding_top', 50);
+ // Set the 'offset' option to return the middle of the client area
+ // an option can be a static value, or a callback
+ kibbles.skipper.setOption('padding_bottom', 100);
+ // Register our keys
+ kibbles.skipper.addFwdKey("n");
+ kibbles.skipper.addRevKey("p");
+ kibbles.keys.addKeyPressListener(
+ 'u', function() { window.location = detail_url; });
+ kibbles.keys.addKeyPressListener(
+ 'r', function() { window.location = detail_url + '#publish'; });
+ 
+ kibbles.keys.addKeyPressListener('j', gotoNextPage);
+ kibbles.keys.addKeyPressListener('k', gotoPreviousPage);
+ 
+ 
+ kibbles.keys.addKeyPressListener('h', toggleComments);
+ 
+ }
+ </script>
+<script src="https://ssl.gstatic.com/codesite/ph/15490321151412058579/js/code_review_scripts.js"></script>
+<script type="text/javascript">
+ function showPublishInstructions() {
+ var element = document.getElementById('review_instr');
+ if (element) {
+ element.className = 'opened';
+ }
+ }
+ var codereviews;
+ function revsOnLoadHandler() {
+ // register our source container with the commenting code
+ var paths = {'svn163': '/trunk/LGPL-LICENSE.txt'}
+ codereviews = CR_controller.setup(
+ {"domainName":null,"relativeBaseUrl":"","profileUrl":"/u/115644446545557313599/","assetVersionPath":"https://ssl.gstatic.com/codesite/ph/15490321151412058579","token":"8r6MrRveli5lRP6s1wEN_hLMXjc:1380381494100","projectHomeUrl":"/p/nuwani","assetHostPath":"https://ssl.gstatic.com/codesite/ph","projectName":"nuwani","loggedInUserEmail":"Oostcoast@gmail.com"}, '', 'svn163', paths,
+ CR_BrowseIntegrationFactory);
+ 
+ // register our source container with the commenting code
+ // in this case we're registering the container and the revison
+ // associated with the contianer which may be the primary revision
+ // or may be a previous revision against which the primary revision
+ // of the file is being compared.
+ codereviews.registerSourceContainer(document.getElementById('lines'), 'svn163');
+ 
+ codereviews.registerActivityListener(CR_ActivityType.REVEAL_DRAFT_PLATE, showPublishInstructions);
+ 
+ codereviews.registerActivityListener(CR_ActivityType.REVEAL_PUB_PLATE, pubRevealed);
+ codereviews.registerActivityListener(CR_ActivityType.REVEAL_DRAFT_PLATE, draftRevealed);
+ codereviews.registerActivityListener(CR_ActivityType.DISCARD_DRAFT_COMMENT, draftDestroyed);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ var initialized = true;
+ reloadCursors();
+ }
+ window.onload = function() {keysOnLoadHandler(); revsOnLoadHandler();};
+
+</script>
+<script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/15490321151412058579/js/dit_scripts.js"></script>
+
+ 
+ 
+ 
+ <script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/15490321151412058579/js/ph_core.js"></script>
+ 
+ 
+ 
+ 
+</div> 
+
+<div id="footer" dir="ltr">
+ <div class="text">
+ <a href="/projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="/p/support/">Project Hosting Help</a>
+ </div>
+</div>
+ <div class="hostedBy" style="margin-top: -20px;">
+ <span style="vertical-align: top;">Powered by <a href="http://code.google.com/projecthosting/">Google Project Hosting</a></span>
+ </div>
+
+ 
+ 
+
+
+ 
+ </body>
+</html>
+
