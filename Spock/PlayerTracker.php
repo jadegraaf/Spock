@@ -30,16 +30,13 @@ class PlayerTracker {
   }
 
   public static function removePlayerFromList($playerName) {
-    if (($key = array_search($playerName, self::$m_CurrentPlayerList)) !== false) {
-      unset(self::$m_CurrentPlayerList[$key]);
+    if (in_array($playerName, self::$m_CurrentPlayerList)) {
+      unset(self::$m_CurrentPlayerList[$playerName]);
     }
   }
 
   public static function isPlayerConnected($playerName) {
-    if (array_key_exists($playerName, self::$m_CurrentPlayerList))
-      return true;
-    else
-      return false;
+    return array_key_exists($playerName, self::$m_CurrentPlayerList);
   }
 
   public static function getPlayerList() {

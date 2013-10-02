@@ -288,7 +288,7 @@ class Commands {
       ' entries)');   
     
     foreach ($entries as $entry) {
-      $bot->send('PRIVMSG ' . Configuration::EchoChannel . ' :' . ModuleBase::COLOUR_RED . date('[j-n-Y G:i:h] ',$entry['date']) . ModuleBase::COLOUR_DARKGREEN . 
+      $bot->send('PRIVMSG ' . Configuration::EchoChannel . ' :' . ModuleBase::COLOUR_RED . date('[j-n-Y G:i:s] ',$entry['date']) . ModuleBase::COLOUR_DARKGREEN . 
         $entry['type']  . ' by ' . $entry['actor'] . ModuleBase::CLEAR . ': ' . $entry['reason']);
     }
   }
